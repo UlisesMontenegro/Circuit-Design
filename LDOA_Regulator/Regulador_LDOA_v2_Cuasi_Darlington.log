@@ -1,0 +1,140 @@
+Circuit: * C:\Users\joaqu\Desktop\Circuit-Design\LDOA_Regulator\Regulador_LDOA_v2_Cuasi_Darlington.asc
+
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 5.5165
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+Gmin = 5.48432
+vernier = 0.00390625
+vernier = 0.00195313
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source stepping succeeded in finding the operating point.
+
+Semiconductor Device Operating Points:
+                        --- Diodes ---
+Name:    d:u5:p      d:u5:ln     d:u5:lp     d:u5:e      d:u5:c
+Model:    u5:dx       u5:dx       u5:dx       u5:dx       u5:dx
+Id:     -3.00e-11   -2.50e-11   -2.50e-11   -1.30e-11   -1.26e-11
+Vd:     -3.00e+01   -2.50e+01   -2.50e+01   -1.30e+01   -1.26e+01
+Req:     1.00e+12    1.00e+12    1.00e+12    1.00e+12    1.00e+12
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u4:p      d:u4:ln     d:u4:lp     d:u4:e      d:u4:c
+Model:    u4:dx       u4:dx       u4:dx       u4:dx       u4:dx
+Id:     -3.00e-11   -2.50e-11   -2.50e-11   -1.29e-11   -1.27e-11
+Vd:     -3.00e+01   -2.50e+01   -2.50e+01   -1.29e+01   -1.27e+01
+Req:     1.00e+12    1.00e+12    1.00e+12    1.00e+12    1.00e+12
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u3:p      d:u3:ln     d:u3:lp     d:u3:e      d:u3:c
+Model:    u3:dx       u3:dx       u3:dx       u3:dx       u3:dx
+Id:     -3.00e-11   -2.50e-11   -2.50e-11   -1.29e-11   -1.27e-11
+Vd:     -3.00e+01   -2.50e+01   -2.50e+01   -1.29e+01   -1.27e+01
+Req:     1.00e+12    1.00e+12    1.00e+12    1.00e+12    1.00e+12
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u2:p      d:u2:ln     d:u2:lp     d:u2:e      d:u2:c
+Model:    u2:dx       u2:dx       u2:dx       u2:dx       u2:dx
+Id:     -3.00e-11   -2.50e-11   -2.50e-11   -1.46e-11   -1.10e-11
+Vd:     -3.00e+01   -2.50e+01   -2.50e+01   -1.46e+01   -1.10e+01
+Req:     1.00e+12    1.00e+12    1.00e+12    1.00e+12    1.00e+12
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u1:p      d:u1:ln     d:u1:lp     d:u1:e      d:u1:c
+Model:    u1:dx       u1:dx       u1:dx       u1:dx       u1:dx
+Id:     -3.00e-11   -2.50e-11   -2.50e-11   -1.30e-11   -1.26e-11
+Vd:     -3.00e+01   -2.50e+01   -2.50e+01   -1.30e+01   -1.26e+01
+Req:     1.00e+12    1.00e+12    1.00e+12    1.00e+12    1.00e+12
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+                        --- Bipolar Transistors ---
+Name:       q7          q6          q2          q1          q5
+Model:    2n2222      2n2222      2n2222      2n2222      2n2907
+Ib:       9.73e-06    1.09e-05   -1.50e-12    5.22e-06   -2.26e-03
+Ic:       1.06e-03    2.26e-03    1.07e-12    1.08e-03   -3.00e-01
+Vbe:      6.58e-01    6.76e-01   -4.24e-01    6.57e-01   -9.02e-01
+Vbc:      5.42e-01   -4.26e+00   -1.07e+00   -3.99e+00    4.93e+00
+Vce:      1.15e-01    4.93e+00    6.46e-01    4.64e+00   -5.84e+00
+BetaDC:   1.09e+02    2.07e+02   -7.17e-01    2.07e+02    1.33e+02
+Gm:       4.12e-02    8.68e-02    2.97e-20    4.17e-02    7.78e+00
+Rpi:      4.74e+03    2.37e+03    1.00e+12    4.96e+03    1.14e+01
+Rx:       1.00e+01    1.00e+01    1.00e+01    1.00e+01    1.00e+01
+Ro:       1.99e+03    4.61e+04    1.32e+23    9.61e+04    4.16e+02
+Cbe:      5.59e-11    7.44e-11    2.16e-11    5.59e-11    3.82e-09
+Cbc:      6.12e-11    4.28e-12    5.97e-12    4.35e-12    4.12e-12
+Cjs:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+BetaAC:   1.95e+02    2.05e+02    2.97e-08    2.06e+02    8.90e+01
+Cbx:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Ft:       5.59e+07    1.75e+08    5.78e-03    1.10e+08    3.24e+08
+
+Name:       q4          q3
+Model:    2n2907      2n2907
+Ib:      -4.18e-06   -4.31e-06
+Ic:      -1.08e-03   -1.07e-03
+Vbe:     -6.56e-01   -6.57e-01
+Vbc:      4.00e+00    0.00e+00
+Vce:     -4.65e+00   -6.57e-01
+BetaDC:   2.57e+02    2.49e+02
+Gm:       4.14e-02    4.13e-02
+Rpi:      6.19e+03    6.00e+03
+Rx:       1.00e+01    1.00e+01
+Ro:       1.15e+05    1.12e+05
+Cbe:      6.36e-11    6.36e-11
+Cbc:      4.35e-12    8.00e-12
+Cjs:      0.00e+00    0.00e+00
+BetaAC:   2.56e+02    2.48e+02
+Cbx:      0.00e+00    0.00e+00
+Ft:       9.70e+07    9.19e+07
+
+                        --- JFET Transistors ---
+Name:    j:u5:2      j:u5:1      j:u4:2      j:u4:1      j:u3:2
+Model:    u5:jx       u5:jx       u4:jx       u4:jx       u3:jx
+Id:     -9.76e-05   -9.76e-05   -9.77e-05   -9.77e-05   -9.76e-05
+Vgs:     3.99e-01    3.99e-01    3.99e-01    3.99e-01    3.99e-01
+Vds:    -1.44e+01   -1.44e+01   -1.43e+01   -1.43e+01   -1.44e+01
+Gm:      3.25e-04    3.25e-04    3.25e-04    3.25e-04    3.25e-04
+Gds:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgs:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgd:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    j:u3:1      j:u2:2      j:u2:1      j:u1:2      j:u1:1
+Model:    u3:jx       u2:jx       u2:jx       u1:jx       u1:jx
+Id:     -9.76e-05   -9.76e-05   -9.76e-05   -9.76e-05   -9.76e-05
+Vgs:     3.99e-01    3.99e-01    3.99e-01    3.99e-01    3.99e-01
+Vds:    -1.44e+01   -1.45e+01   -1.45e+01   -1.45e+01   -1.45e+01
+Gm:      3.25e-04    3.25e-04    3.25e-04    3.25e-04    3.25e-04
+Gds:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgs:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgd:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+                        --- VDMOSFET Transistors ---
+Name:          m1
+Model:       ao6408
+Id:          1.19e-04
+Vgs:         5.00e+00
+Vds:         1.34e-06
+Vth:         1.00e+00
+Gm:          2.99e-05
+Gds:         3.60e+02
+Cgs:         1.00e-09
+Cgd:         7.00e-10
+Cbody:       3.60e-10
+
+
