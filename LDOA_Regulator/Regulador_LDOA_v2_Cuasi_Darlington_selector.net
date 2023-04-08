@@ -1,0 +1,84 @@
+* C:\Users\joaqu\Desktop\Circuit-Design\LDOA_Regulator\Regulador_LDOA_v2_Cuasi_Darlington_selector.asc
+Q3 N001 N001 P001 0 2N2907
+Q4 Vod N001 P002 0 2N2907
+Q1 N001 Vref N003 0 2N2222
+Q2 Vod Vf N003 0 2N2222
+Rp N003 0 500
+Q5 Vs1 N002 VIN 0 2N2907
+Q6 N002 Vod Vs1 0 2N2222
+Rf1 Vs1 Vf 3.16k
+Rf2 N004 0 900
+RL Vo 0 {RL}
+V1 Vref 0 {VREFDC} AC {VREFAC}
+VIN VIN 0 {VINDC} AC {VINAC}
+R3 VIN P001 {RE}
+R2 VIN P002 {RE}
+C3 Vo 0 1µ
+Rs Vo Vs1 0.7
+XU1 N005 N006 +15V -15V N011 TL081
+XU2 N012 N015 +15V -15V N014 TL081
+R1 N011 N012 1k
+R4 Vrefc N015 1k
+R5 N015 N014 100k
+R6 N012 0 100k
+Q7 Vod N013 N016 0 2N2222
+R8 N016 0 1K
+V2 +15V 0 15
+V3 0 -15V 15
+R9 N006 N011 10k
+R10 Vo N006 10k
+R11 Vs1 N005 10k
+R12 N005 0 10k
+R7 N014 N013 10k
+R13 N007 Vref 75k
+R14 0 N007 10k
+R15 Vf N017 13k
+R16 N017 0 10k
+R17 N009 N008 10k
+R18 N009 N018 10k
+R19 Vrefc N010 10k
+R20 0 N010 10k
+XU3 N007 N008 +15V -15V N008 TL081
+XU4 N017 N018 +15V -15V N018 TL081
+XU5 N009 N010 +15V -15V Vrefc TL081
+Rf3 Vf N004 1k
+M1 N004 SELA 0 0 AO6408
+VSELA SELA 0 5V
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\joaqu\Documents\LTspiceXVII\lib\cmp\standard.bjt
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\joaqu\Documents\LTspiceXVII\lib\cmp\standard.mos
+.op
+;ac dec 20 0.1 10Meg
+.param VINDC 6.35
+.param VINAC 1
+.param VREFDC 1.2
+.param VREFAC 0
+;param RL 5
+;dc VIN 1 12
+;step param RE 1k 1.5k 100
+.param RE 470
+.step param RL 1k 1 10
+* Mido regulacion de linea
+.meas DC Vo1rl FIND V(Vo) AT=6.25
+.meas DC Vo2rl FIND V(Vo) AT=6.45
+.meas DC RegLin PARAM ((Vo2rl-Vo1rl)/0.2)
+* Mido regulacion de carga
+.meas OP Vo1rc FIND V(Vo) AT 100
+.meas OP Vo2rc FIND V(Vo) AT 10
+.meas OP Io1rc FIND I(RL) AT 100
+.meas OP Io2rc FIND I(RL) AT 10
+* Mido eficiencia
+* -100*((V(vo)*I(RL))/(V(VIN)*I(VIN)))
+.meas OP RegCar PARAM (-(Vo2rc-Vo1rc)/(Io2rc-Io1rc))
+;tran 0 1m 0 1u
+* Lazo de Corriente
+.include TL081.txt
+* Referencia Lazo de Corriente
+;step param VINDC 6.25 6.35 0.01
+* Sumador
+* Selector
+.backanno
+.end
