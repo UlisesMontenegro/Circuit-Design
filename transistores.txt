@@ -1,0 +1,26 @@
+ENCAPSULADO TO92
+
+NPN: 
+BC548B 		
+https://www.microelectronicash.com/bc548b--det--BC548B
+https://www.microelectronicash.com/downloads/BC548B.pdf
+
+PNP:
+BC327-25https://www.microelectronicash.com/bc327-25--det--BC327-25
+https://www.microelectronicash.com/downloads/BC327-25.pdf
+
+
+ENCAPSULADO TO220 (apto disipador)
+
+NPN:
+2N6488
+https://www.microelectronicash.com/2n6488--det--2N6488
+https://www.onsemi.com/download/data-sheet/pdf/2n6487-d.pdf
+
+PNP:
+2SA1306
+https://www.microelectronicash.com/2sa1306--det--2SA1306
+https://articulo.mercadolibre.com.ar/MLA-834816220-par-transistor-2sa1306-2sc3298-to-220-a1306-c3298-_JM#position=22&search_layout=stack&type=item&tracking_id=388ad167-24bf-4b9f-ace6-b41c8f1b80e1
+https://www.microelectronicash.com/downloads/2SA1306.pdf
+
+		
