@@ -1,0 +1,19 @@
+OPAMPS
+
+LM324N: cuadruple opamp con fuente simple
+https://www.microelectronicash.com/lm324n--det--LM324N
+https://articulo.mercadolibre.com.ar/MLA-854467939-lm324n-lm324-amplificador-operacional-cuadruple-dip-14-_JM#position=5&search_layout=grid&type=item&tracking_id=21051d32-91be-4028-a671-684e02f77445
+
+LM258/LM358: 
+https://articulo.mercadolibre.com.ar/MLA-744801452-lm258n-lm258-indust-dual-low-power-operational-amplifdil-8-_JM#position=3&search_layout=grid&type=item&tracking_id=db245fa6-b9ad-43b5-b70d-19e34f6ec84d
+https://articulo.mercadolibre.com.ar/MLA-1266528806-lm358-lm358p-lm-358-p-amplificador-dip8-pack-x-5-unidades-_JM#position=1&search_layout=grid&type=item&tracking_id=777a9f0d-79e0-45ac-8c6f-8460aba6d9a6
+https://www.microelectronicash.com/lm358n--det--LM358N
+
+LM311:
+https://www.microelectronicash.com/lm311n--det--LM311N
+https://articulo.mercadolibre.com.ar/MLA-739428230-integrado-lm311p-lm311-comparador-diferencial-5v-_JM#is_advertising=true&position=4&search_layout=grid&type=pad&tracking_id=56c14d2a-730a-4ffa-b9e7-394edabd9092&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=4&ad_click_id=MzM4MmIwMGUtZDZlMS00MDlkLWJkZWQtMDhiYjZjM2UwMmM5
+
+
+
+
+https://www.elprocus.com/op-amp-ics-pin-configuration-features-working/
