@@ -1,0 +1,95 @@
+Circuit: * D:\Uli\FIUBA\Materias\Diseño de Circuitos\TP\Circuit-Design\LDOB_Regulator\LDOB_Regulator_v1.asc
+
+Ignoring empty pin current: Ix(u1:1)
+Ignoring empty pin current: Ix(u1:2)
+Ignoring empty pin current: Ix(u2:1)
+Ignoring empty pin current: Ix(u2:2)
+Ignoring empty pin current: Ix(u3:1)
+Ignoring empty pin current: Ix(u3:2)
+Ignoring empty pin current: Ix(u4:1)
+Ignoring empty pin current: Ix(u4:2)
+Ignoring empty pin current: Ix(u5:1)
+Ignoring empty pin current: Ix(u5:2)
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+vernier = 0.5
+vernier = 0.25
+Gmin = 7.16743e-005
+vernier = 0.333333
+vernier = 0.444444
+Gmin = 3.04221e-005
+vernier = 0.592592
+vernier = 0.790123
+Gmin = 8.08432e-006
+vernier = 1
+Gmin = 1.07562e-006
+Gmin = 1.15494e-007
+Gmin = 1.24011e-008
+Gmin = 1.33156e-009
+Gmin = 1.42975e-010
+Gmin = 1.53518e-011
+Gmin = 1.64839e-012
+Gmin = 1.76994e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Semiconductor Device Operating Points:
+                        --- Bipolar Transistors ---
+Name:       q7          q5          q4          q3          q6
+Model:    2n2222     bc327-25    bc327-25    bc327-25     bc546b
+Ib:       6.28e-06   -2.53e-03   -3.29e-06   -3.38e-06    8.38e-06
+Ic:       1.25e-03   -4.80e-01   -1.26e-03   -1.11e-03    2.53e-03
+Vbe:      6.61e-01   -8.33e-01   -5.91e-01   -5.92e-01    6.62e-01
+Vbc:     -9.73e-02    5.42e+00    4.99e+00    0.00e+00   -4.76e+00
+Vce:      7.59e-01   -6.25e+00   -5.59e+00   -5.92e-01    5.42e+00
+BetaDC:   1.99e+02    1.90e+02    3.83e+02    3.28e+02    3.02e+02
+Gm:       4.82e-02    1.21e+01    4.89e-02    4.31e-02    9.51e-02
+Rpi:      4.12e+03    1.02e+01    8.03e+03    7.81e+03    3.12e+03
+Rx:       1.00e+01    5.08e-01    6.67e-01    6.65e-01    1.00e+00
+Ro:       8.00e+04    7.20e+01    2.75e+04    2.68e+04    2.63e+04
+Cbe:      5.86e-11    1.49e-08    1.19e-10    1.15e-10    9.79e-11
+Cbc:      7.69e-12    4.10e-12    4.20e-12    1.22e-11    1.09e-12
+Cjs:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+BetaAC:   1.98e+02    1.23e+02    3.93e+02    3.36e+02    2.97e+02
+Cbx:      0.00e+00    4.83e-12    4.95e-12    1.44e-11    6.67e-13
+Ft:       1.16e+08    1.29e+08    6.09e+07    4.86e+07    1.52e+08
+
+Name:       q2          q1
+Model:    bc546b      bc546b
+Ib:      -1.35e-12    3.68e-06
+Ic:       8.07e-13    1.12e-03
+Vbe:     -5.42e-01    6.40e-01
+Vbc:     -7.41e-01   -4.55e+00
+Vce:      1.99e-01    5.19e+00
+BetaDC:  -5.96e-01    3.03e+02
+Gm:       8.69e-22    4.24e-02
+Rpi:      1.00e+12    7.10e+03
+Rx:       1.00e+00    1.00e+00
+Ro:       1.37e+24    5.93e+04
+Cbe:      1.11e-11    6.48e-11
+Cbc:      1.69e-12    1.10e-12
+Cjs:      0.00e+00    0.00e+00
+BetaAC:   8.69e-10    3.01e+02
+Cbx:      1.04e-12    6.75e-13
+Ft:       1.15e-02    1.01e+08
+
+                        --- VDMOSFET Transistors ---
+Name:          m1
+Model:       ao6408
+Id:          1.46e-09
+Vgs:         0.00e+00
+Vds:         8.53e-03
+Vth:         1.00e+00
+Gm:          1.85e-08
+Gds:         0.00e+00
+Cgs:         1.00e-09
+Cgd:         5.23e-10
+Cbody:       3.58e-10
+
+
