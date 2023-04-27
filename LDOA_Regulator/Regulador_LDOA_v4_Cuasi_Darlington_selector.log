@@ -1,0 +1,45 @@
+Circuit: * D:\Uli\FIUBA\Materias\Diseño de Circuitos\TP\Circuit-Design\LDOA_Regulator\Regulador_LDOA_v4_Cuasi_Darlington_selector.asc
+
+WARNING: Less than two connections to node N014.  This node is used by Q7.
+WARNING: Less than two connections to node N007.  This node is used by R10.
+WARNING: Less than two connections to node NC_01.  This node is used by R11.
+Direct Newton iteration for .op point succeeded.
+Ignoring empty pin current: Ix(u2:1)
+Ignoring empty pin current: Ix(u2:2)
+Ignoring empty pin current: Ix(u3:1)
+Ignoring empty pin current: Ix(u3:2)
+Ignoring empty pin current: Ix(u4:1)
+Ignoring empty pin current: Ix(u4:2)
+Ignoring empty pin current: Ix(u5:1)
+Ignoring empty pin current: Ix(u5:2)
+Ignoring empty pin current: Ix(u1:1)
+Ignoring empty pin current: Ix(u1:2)
+Ignoring empty pin current: Ix(u2:1)
+Ignoring empty pin current: Ix(u2:2)
+Ignoring empty pin current: Ix(u3:1)
+Ignoring empty pin current: Ix(u3:2)
+Ignoring empty pin current: Ix(u4:1)
+Ignoring empty pin current: Ix(u4:2)
+Ignoring empty pin current: Ix(u5:1)
+Ignoring empty pin current: Ix(u5:2)
+Ignoring empty pin current: Ix(u1:1)
+Ignoring empty pin current: Ix(u1:2)
+
+
+
+Date: Thu Apr 27 15:34:42 2023
+Total elapsed time: 0.088 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 8
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 72
+fillins = 43
+solver = Normal
+Matrix Compiler1:     370 opcodes
+Matrix Compiler2: 6.42 KB object code size
