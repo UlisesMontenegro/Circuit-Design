@@ -1,0 +1,105 @@
+* C:\Users\joaqu\Desktop\Circuit-Design\LDOA_Regulator\Regulador_LDOA_v4_Cuasi_Darlington_selector.asc
+Q3 N003 N003 P001 0 BC327-25
+Q4 Vod N003 P002 0 BC327-25
+Q1 N003 Vref Pol 0 BC546B
+Q2 Vod N005 Pol 0 BC546B
+Q5 Vs1 N004 VIN 0 D45H11
+Q6 N004 Vod Vs1 0 BC546B
+Rf1 Vo Vf 3.16k
+Rf2 N006 0 820
+RL Vo 0 {RL}
+V1 Vref 0 {VREFDC} AC {VREFAC}
+VIN VIN 0 {VINDC}
+R3 VIN P001 {RE}
+R2 VIN P002 {RE}
+C3 Vo 0 {CL}
+Rs Vo Vs1 0.1
+R1 Vs N013 1k
+R4 Vrefc N016 1k
+R5 N016 N015 100k
+R6 N013 0 100k
+Q7 Vod P003 0 0 2N2222
+R9 N008 Vs 100k
+R10 Vo N008 10k
+R11 Vs1 N007 10k
+R12 N007 0 100k
+R13 N009 Vref 50k
+R14 0 N009 10k
+R15 Vf N017 54.4k
+R16 N017 0 46k
+R17 N011 N010 10k
+R18 N011 N018 10k
+R19 Vrefc N012 10k
+R20 0 N012 10k
+Rf3 Vf N006 1k
+M1 N006 SELA 0 0 AO6408
+VSELA SELA 0 5
+R7 N015 P003 100
+XU2 N010 N009 N010 opamp Aol=100K GBW=10Meg
+XU3 N018 N017 N018 opamp Aol=100K GBW=10Meg
+XU4 N008 N007 Vs opamp Aol=100K GBW=10Meg
+XU5 N016 N013 N015 opamp Aol=100K GBW=10Meg
+XU1 N012 N011 Vrefc opamp Aol=100K GBW=10Meg
+Q8 N014 N014 0 0 BC546B
+R8 Vref N014 500
+L1 Vf N005 1Meg
+C1 N005 VCOMP 1Meg
+VCOMP VCOMP 0 1.2V AC 1V
+gmPD N002 0 Vref Vfi_model 19.3m
+Rn1 N002 0 87.4k
+Cn1 N002 0 182p
+E§Av N001 0 N002 0 1
+ro Vo_model N001 1.3
+R24 Vo_model Vfo_model 3.16k
+R25 Vo_model 0 {RL}
+C4 Vo_model 0 {CL}
+C5 Vfi_model VCOMP 1Meg
+L2 Vfo_model Vfi_model 1Meg
+R26 Vfo_model 0 1k
+Q9 Pol N014 0 0 BC546B
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\joaqu\Documents\LTspiceXVII\lib\cmp\standard.bjt
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\joaqu\Documents\LTspiceXVII\lib\cmp\standard.mos
+;op
+.ac dec 20 0.1 10Meg
+.param VINDC 6.35
+.param VINAC 1
+.param VREFDC 1.2
+.param VREFAC 0
+.param RL 10
+;dc VIN 1 12
+;step param RE 1k 1.5k 100
+.param RE 470
+;step param RL 100 0.1 0.25
+* Mido regulacion de linea
+.meas DC Vo1rl FIND V(Vo) AT=6.25
+.meas DC Vo2rl FIND V(Vo) AT=6.45
+.meas DC RegLin PARAM ((Vo2rl-Vo1rl)/0.2)
+* Mido regulacion de carga
+.meas OP Vo1rc FIND V(Vo) AT 100
+.meas OP Vo2rc FIND V(Vo) AT 10
+.meas OP Io1rc FIND I(RL) AT 100
+.meas OP Io2rc FIND I(RL) AT 10
+* Mido eficiencia
+* -100*((V(vo)*I(RL))/(V(VIN)*I(VIN)))
+.meas OP RegCar PARAM (-(Vo2rc-Vo1rc)/(Io2rc-Io1rc))
+;tran 0 1m 0 1u
+* Lazo de Corriente
+;include TL081.txt
+* Referencia Lazo de Corriente
+;step param VINDC 4 12 0.5
+* Sumador
+* Selector
+.lib opamp.sub
+* Fuente de corriente de polarizacion\nEspejo Simple
+* Fuente para analisis \nde Compensacion
+.param CL 15u
+* Parametros de carga
+* Parametros de fuentes
+* Parametros de simulacion
+* Modelo Pequeña Señal
+.backanno
+.end
