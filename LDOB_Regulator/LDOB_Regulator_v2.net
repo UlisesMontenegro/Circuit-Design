@@ -1,0 +1,116 @@
+* C:\Users\joaqu\Desktop\Circuit-Design\LDOB_Regulator\LDOB_Regulator_v2.asc
+Q1 N004 Vref Pol 0 BC546B
+Q2 Vod Vf Pol 0 BC546B
+Q3 N004 N004 N002 0 BC327-25
+Q4 Vod N004 N003 0 BC327-25
+RE1 Vin N002 {RE}
+RE2 Vin N003 {RE}
+Vref Vref 0 1.2
+Q§TIP42C Vs1 N001 Vin 0 TIP42C
+Q2N6487 N001 Vod Vs1 0 Q2N6487
+Rs Vo Vs1 0.1
+Rf1 Vo Vf 3.16k
+Rf3 Vf N007 1k08
+Rf2 N007 0 1.09K
+RL Vo 0 0.1
+C1 N005 0 1µ
+Vin Vin 0 {Vin}
+M1 N007 SELA 0 0 2N7002
+R1 Vs1 N009 10k
+R2 Vo N013 10k
+R3 Vs N016 10k
+R4 N013 Vs 100k
+R5 N009 0 100k
+R6 Vrefc N019 10k
+R7 0 N016 100k
+R8 N018 N019 100k
+R9 P001 N017 100
+Q7 Vod P001 0 0 2N2222
+R10 N012 N011 10k
+R11 N012 N023 10k
+R12 N010 Vref 20k
+R13 0 N010 10k
+R14 0 N022 10k
+R15 Vf N022 900
+R16 Vrefc N014 10k
+R17 0 N014 10k
+VSELA SELA 0 0
+Q8 N015 N015 N020 0 BC546B
+R18 Vin N015 4.7K
+Q9 Pol N015 N021 0 BC546B
+R19 N020 0 470
+R20 N021 0 470
+XU6 N010 N011 VIN 0 N011 LM358
+XU3 N022 N023 VIN 0 N023 LM358
+XU4 N012 N014 VIN 0 Vrefc LM358
+XU5 N009 N013 VIN 0 Vs LM358
+XU1 N016 N019 VIN 0 N018 LM358
+L1 0 N008 1000Meg
+C2 N008 VCOMP_V 1000Meg
+VCOMP1 VCOMP_V 0 1.2 AC 1
+VCOMP2 VCOMP_I 0 656m AC 1
+I1 0 Vod 0 AC 0
+I2 0 Vo 0 AC 0
+C3 Vod 0 22n
+R22 Vo N005 1
+L2 N017 N018 1000Meg
+C4 VCOMP_I N017 1000Meg
+C5 N013 Vs 220p
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\joaqu\Documents\LTspiceXVII\lib\cmp\standard.bjt
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\joaqu\Documents\LTspiceXVII\lib\cmp\standard.mos
+;param Vin 6.35
+* Parámetros
+;param RE 4.7
+;param RL 5
+;step param RL 100 0.1 0.1
+* Lazo de corriente
+* Referencia Lazo de Corriente
+;lib opamp.sub
+* Fuente de corriente de polarizacion\nEspejo Simple
+* Selector
+.meas DC Vo1rl FIND V(Vo) AT=6.25
+.meas DC Vo2rl FIND V(Vo) AT=6.45
+.meas DC RegLin PARAM ((Vo2rl-Vo1rl)/0.2)
+* Regulacion de linea
+.meas OP Vo1rc FIND V(Vo) AT 100
+.meas OP Vo2rc FIND V(Vo) AT 5
+.meas OP Io1rc FIND I(RL) AT 100
+.meas OP Io2rc FIND I(RL) AT 5
+.meas OP RegCar PARAM (-(Vo2rc-Vo1rc)/(Io2rc-Io1rc))
+* Regulacion de carga
+* -100*((V(vo)*I(RL))/(V(VIN)*I(VIN)))
+* Eficiencia
+;include TL081.txt
+.lib opamp.sub
+* Modelos de simulacion
+.include 2N6487.lib
+.MODEL TIP42C PNP(Is=66.19f Xti=3 Eg=1.11 Vaf=100 Bf=137.6 Ise=862.2f Ne=1.481 Ikf=1.642 Nk=.5695 Xtb=2 Br=5.88 Isc=273.5f Nc=1.24 Ikr=3.555 Rc=79.39m Cjc=870.4p Mjc=.6481 Vjc=.75 Fc=.5 Cje=390.1p Mje=.4343 Vje=.75 Tr=235.4n Tf=23.21n Itf=71.33 Xtf=5.982 Vtf=10 Rb=.1 Vceo=100 Icrating=6 mfg=Texas)
+.include LM358.txt
+* Fuente para analisis \nde Compensacion
+* Fuente para analisis \nde Compensacion
+.op
+.ac dec 20 0.1 1000Meg
+;dc VIN 1 12
+;tran 0 0.5 0 1m
+* Tipos de simulacion
+.param Vin 6.35
+;param VINAC 1
+;param VREFDC 1.2
+;param VREFAC 0
+;param RL 250
+;step param RE 1k 1.5k 100
+.param RE 470
+;step param RL 100 0.1 0.25
+;step param VINDC 4 12 0.1
+;param CL 1u
+* Parametros de carga
+* Parametros de fuentes
+* Parametros de simulacion
+;step param CL list 1u 15u
+;step param C3 list 15n 50n 75n 100n 150n
+.backanno
+.end
