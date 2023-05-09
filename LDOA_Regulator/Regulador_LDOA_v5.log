@@ -95,8 +95,8 @@ io2rc: i(rl)=0.501511 at 10
 regcar: (-(vo2rc-vo1rc)/(io2rc-io1rc))=0.0237693
 
 
-Date: Fri May 05 16:22:43 2023
-Total elapsed time: 15.490 seconds.
+Date: Mon May 08 20:01:51 2023
+Total elapsed time: 19.602 seconds.
 
 tnom = 27
 temp = 27
