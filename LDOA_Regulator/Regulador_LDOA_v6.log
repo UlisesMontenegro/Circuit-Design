@@ -1,5 +1,6 @@
 Circuit: * C:\Users\joaqu\Desktop\Circuit-Design\LDOA_Regulator\Regulador_LDOA_v6.asc
 
+Early termination of direct N-R iteration.
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
 Starting Gmin stepping
 Gmin = 10
@@ -12,71 +13,123 @@ Gmin = 1.5325e-005
 vernier = 0.5
 vernier = 0.25
 vernier = 0.125
-Gmin = 4.86951e-006
 vernier = 0.0625
+Gmin = 5.02168e-006
 vernier = 0.03125
 vernier = 0.015625
-vernier = 0.0078125
-vernier = 0.00390625
-Gmin = 4.70814e-006
-vernier = 0.00520833
-vernier = 0.00694444
-Gmin = 4.64627e-006
-vernier = 0.00925925
-Gmin = 4.55057e-006
-vernier = 0.0123457
-vernier = 0.0164609
-Gmin = 4.39442e-006
-vernier = 0.0219478
-vernier = 0.0292638
-Gmin = 4.15666e-006
-vernier = 0.0390184
-Gmin = 3.80879e-006
-vernier = 0.0520245
-vernier = 0.0693659
-Gmin = 3.29039e-006
-vernier = 0.0924879
-vernier = 0.123317
-Gmin = 2.60841e-006
-vernier = 0.164423
-Gmin = 1.81409e-006
-vernier = 0.21923
-vernier = 0.292307
-Gmin = 9.93338e-007
-vernier = 0.389743
-vernier = 0.519657
-Gmin = 3.86785e-007
-vernier = 0.692876
-Gmin = 9.09942e-008
-vernier = 0.923834
+vernier = 0.0208333
+Gmin = 4.84859e-006
+vernier = 0.0277778
+vernier = 0.037037
+Gmin = 4.53744e-006
+vernier = 0.0493827
+Gmin = 4.07524e-006
+vernier = 0.0658435
+vernier = 0.0877914
+Gmin = 3.41975e-006
+vernier = 0.117055
+vernier = 0.156073
+Gmin = 2.59373e-006
+vernier = 0.208098
+Gmin = 1.66218e-006
+vernier = 0.277464
+vernier = 0.369952
+Gmin = 8.10299e-007
+vernier = 0.493269
+vernier = 0.657691
+Gmin = 2.65626e-007
+vernier = 0.876922
+Gmin = 4.60562e-008
 vernier = 1
-Gmin = 1.07131e-008
-Gmin = 1.15031e-009
-Gmin = 1.23513e-010
-Gmin = 1.32621e-011
-Gmin = 1.42401e-012
-Gmin = 1.52902e-013
+Gmin = 5.07005e-009
+Gmin = 5.44392e-010
+Gmin = 5.84537e-011
+Gmin = 6.27641e-012
+Gmin = 6.73925e-013
 Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
+Heightened Def Con from 0.01 ++++++++++++++++++++++++++++to 0.01
+Heightened Def Con from 0.01 ++++++++++++++++++to 0.01
+Heightened Def Con from 0.0100004 ++++to 0.0100004
+Heightened Def Con from 0.0100004 +++++++to 0.0100004
+Heightened Def Con from 0.0100004 ++++++++++to 0.0100004
+Heightened Def Con from 0.0100004 +++++++++to 0.0100004
+Heightened Def Con from 0.0100004 +++++++to 0.0100004
+Heightened Def Con from 0.0100004 +++++++to 0.0100004
+Heightened Def Con from 0.0100004 ++++++++++to 0.0100004
+Heightened Def Con from 0.0100004 +++++++++to 0.0100004
+Heightened Def Con from 0.0100004 ++++++++++to 0.0100004
+Heightened Def Con from 0.0100004 ++++++++to 0.0100004
+Heightened Def Con from 0.0100004 +++++++++to 0.0100004
+Heightened Def Con from 0.0100004 ++++++++++to 0.0100004
+Heightened Def Con from 0.0100004 ++++++++++to 0.0100004
+Heightened Def Con from 0.0100004 +++++++++to 0.0100004
+Heightened Def Con from 0.0100004 ++++++++to 0.0100004
+Heightened Def Con from 0.0100004 +++++to 0.0100004
+Heightened Def Con from 0.0100004 +++++++++to 0.0100004
+Heightened Def Con from 0.0100004 ++++++++++to 0.0100004
+Heightened Def Con from 0.0100004 ++++++++to 0.0100004
+Heightened Def Con from 0.0100004 ++++++++++to 0.0100004
+Heightened Def Con from 0.0100004 ++++++++++to 0.0100004
+Heightened Def Con from 0.0100004 +++++++++to 0.0100004
+Heightened Def Con from 0.0100004 +++++++to 0.0100004
+Heightened Def Con from 0.0100004 ++++++++to 0.0100004
+Heightened Def Con from 0.0100004 ++++++++to 0.0100004
+Heightened Def Con from 0.0100004 ++++++++++to 0.0100004
+Heightened Def Con from 0.0100004 ++++++++++to 0.0100004
+Heightened Def Con from 0.0100004 ++++++++++to 0.0100004
+Heightened Def Con from 0.0100004 ++++++++to 0.0100004
+Heightened Def Con from 0.0100004 +++++++++to 0.0100004
+Heightened Def Con from 0.0100004 +++++++++to 0.0100004
+Heightened Def Con from 0.0100004 ++++++++++to 0.0100004
+Heightened Def Con from 0.0100004 ++++++++++to 0.0100004
+Heightened Def Con from 0.0100004 +++++++++to 0.0100004
+Heightened Def Con from 0.0100004 ++++++++to 0.0100004
+Heightened Def Con from 0.0100004 ++++++++++to 0.0100004
+Heightened Def Con from 0.0100004 +++++++++to 0.0100004
+Heightened Def Con from 0.0100004 ++to 0.0100004
+Heightened Def Con from 0.0100004 ++++++++to 0.0100004
+Heightened Def Con from 0.0100004 +++++++to 0.0100004
+Heightened Def Con from 0.0100004 +++++++++to 0.0100004
+Heightened Def Con from 0.0100004 ++++++++to 0.0100004
+Heightened Def Con from 0.0100004 ++++++++to 0.0100004
+Heightened Def Con from 0.0100004 +++++++++++to 0.0100004
+Heightened Def Con from 0.0100004 +++++++++to 0.0100004
+Heightened Def Con from 0.0100004 ++++++++++++to 0.0100004
+Heightened Def Con from 0.0100004 +++++++++++to 0.0100004
+Heightened Def Con from 0.0100004 ++++++++++++to 0.0100004
+Heightened Def Con from 0.0100004 +++++++++++to 0.0100004
+Heightened Def Con from 0.0100004 +++++++++++++to 0.0100004
+Heightened Def Con from 0.0100004 +++++++++++++to 0.0100004
+Heightened Def Con from 0.0100004 +++++++++++++to 0.0100004
+Heightened Def Con from 0.0100004 ++++++++++++to 0.0100004
+Heightened Def Con from 0.0100004 ++++++++++to 0.0100004
+Heightened Def Con from 0.0100004 +++++++++to 0.0100004
+Heightened Def Con from 0.0100004 ++++++++++to 0.0100004
+Heightened Def Con from 0.0100004 ++++++++++++to 0.0100004
+Heightened Def Con from 0.0100004 +++++++++++to 0.0100004
+Heightened Def Con from 0.0100004 +++++++++++to 0.0100004
+Heightened Def Con from 0.0100004 ++++++++++++++to 0.0100004
+Heightened Def Con from 0.0100004 to 0.0100004
 
 
 
-Date: Mon May 08 22:00:12 2023
-Total elapsed time: 1.172 seconds.
+Date: Tue May 09 00:51:05 2023
+Total elapsed time: 5.050 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 6743
-traniter = 5006
-tranpoints = 2365
-accept = 2264
-rejected = 101
-matrix size = 225
-fillins = 865
+totiter = 171662
+traniter = 170317
+tranpoints = 36490
+accept = 22285
+rejected = 14873
+matrix size = 227
+fillins = 558
 solver = Normal
-Thread vector: 17.0/10.9[3] 6.4/4.0[3] 5.7/3.8[3] 0.9/0.9[2]  2592/500
-Matrix Compiler1: 81.85 KB object code size  18.2/8.4/[4.6]
-Matrix Compiler2: 33.50 KB object code size  4.0/6.0/[1.8]
+Thread vector: 22.4/12.2[3] 6.3/3.8[3] 6.4/4.7[3] 1.0/2.6[1]  2592/500
+Matrix Compiler1: 42.97 KB object code size  10.2/4.6/[2.9]
+Matrix Compiler2: 28.19 KB object code size  4.9/4.2/[1.9]
 
