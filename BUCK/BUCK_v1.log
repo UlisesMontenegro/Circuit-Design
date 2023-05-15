@@ -1,0 +1,21 @@
+Circuit: * C:\Users\joaqu\Desktop\Circuit-Design\BUCK\BUCK_v1.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Sun May 14 23:10:56 2023
+Total elapsed time: 0.142 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 3308
+traniter = 3299
+tranpoints = 1587
+accept = 1495
+rejected = 92
+matrix size = 8
+fillins = 0
+solver = Normal
+Matrix Compiler1: 246 bytes object code size  0.3/0.1/[0.1]
+Matrix Compiler2: 534 bytes object code size  0.2/0.3/[0.2]
+
