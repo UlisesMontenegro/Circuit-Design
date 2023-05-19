@@ -1,4 +1,4 @@
-* C:\Users\joaqu\Desktop\Circuit-Design\BUCK\BUCK_v2.asc
+* C:\Users\joaqu\Desktop\Circuit-Design\BUCK\BUCK_v3.asc
 V1 N009 0 36
 L1 VS1 VREG 67µ
 C1 VREG 0 7.95µ
@@ -18,10 +18,10 @@ C4 N003 0 15p
 R2 N003 VG2 10k
 S1 N001 VG_2 N002 0 SW_1
 S2 VG_2 0 N004 0 SW_1
-V3 N001 0 8
+V3 N001 0 9
 S3 N005 VG_1 N006 0 SW_1
 S4 VG_1 VS1 N008 0 SW_1
-C5 N005 VS1 100n
+C5 N005 VS1 150n
 D3 N001 N005 1N4148
 .model D D
 .lib C:\Users\joaqu\Documents\LTspiceXVII\lib\cmp\standard.dio
