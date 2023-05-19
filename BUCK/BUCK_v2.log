@@ -1,0 +1,29 @@
+Circuit: * C:\Users\joaqu\Desktop\Circuit-Design\BUCK\BUCK_v2.asc
+
+Direct Newton iteration for .op point succeeded.
+Heightened Def Con from 8.01611e-014 to 5.60121e-013
+Heightened Def Con from 2.87189e-012 to 3.25622e-012
+Heightened Def Con from 4.99999e-006 to 5.01399e-006
+Heightened Def Con from 3e-005 to 3.0015e-005
+Heightened Def Con from 4.091e-005 to 4.0914e-005
+Heightened Def Con from 4.591e-005 to 4.5914e-005
+Heightened Def Con from 6e-005 to 6.0015e-005
+Heightened Def Con from 0.00012 to 0.000120014
+
+Date: Fri May 19 00:37:12 2023
+Total elapsed time: 4.414 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 159711
+traniter = 159689
+tranpoints = 43925
+accept = 33126
+rejected = 10807
+matrix size = 29
+fillins = 6
+solver = Normal
+Matrix Compiler1: 1.55 KB object code size  1.5/0.7/[0.5]
+Matrix Compiler2: 2.12 KB object code size  0.8/1.2/[0.5]
+
