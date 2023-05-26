@@ -1,31 +1,30 @@
 Circuit: * C:\Users\joaqu\Desktop\Circuit-Design\BUCK\BUCK_v3.asc
 
 Direct Newton iteration for .op point succeeded.
-Heightened Def Con from 4.00098e-014 to 7.87997e-012
-Heightened Def Con from 5e-006 to 5.013e-006
-Heightened Def Con from 3e-005 to 3.0014e-005
-Heightened Def Con from 3.5e-005 to 3.5014e-005
-Heightened Def Con from 4e-005 to 4.0014e-005
-Heightened Def Con from 4.5e-005 to 4.5014e-005
-Heightened Def Con from 6e-005 to 6.0014e-005
-Heightened Def Con from 6.091e-005 to 6.0919e-005
+Changing Tseed to 2e-013
+Heightened Def Con from 8.43753e-013 to 5.46874e-012
+Heightened Def Con from 5.91e-006 to 5.922e-006
+Heightened Def Con from 3.5e-005 to 3.5013e-005
+Heightened Def Con from 4e-005 to 4.0013e-005
+Heightened Def Con from 5.091e-005 to 5.0914e-005
+Heightened Def Con from 6.091e-005 to 6.0914e-005
 Heightened Def Con from 0.00012 to 0.000120013
-Heightened Def Con from 0.00049 to 0.000490014
+Heightened Def Con from 0.00049 to 0.000490013
 
-Date: Fri May 19 18:26:19 2023
-Total elapsed time: 1.732 seconds.
+Date: Mon May 22 20:57:48 2023
+Total elapsed time: 1.124 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 156115
-traniter = 156094
-tranpoints = 42883
-accept = 32203
-rejected = 10690
+totiter = 156953
+traniter = 156932
+tranpoints = 42807
+accept = 32464
+rejected = 10350
 matrix size = 29
 fillins = 6
 solver = Normal
-Matrix Compiler1: 1.55 KB object code size  1.9/0.9/[0.4]
-Matrix Compiler2: 2.12 KB object code size  0.9/1.2/[0.5]
+Matrix Compiler1: 1.55 KB object code size  0.4/0.2/[0.1]
+Matrix Compiler2: 2.12 KB object code size  0.2/0.3/[0.2]
 
