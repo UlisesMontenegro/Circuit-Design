@@ -2,29 +2,34 @@ Circuit: * C:\Users\joaqu\Desktop\Circuit-Design\BUCK\BUCK_v3.asc
 
 Direct Newton iteration for .op point succeeded.
 Changing Tseed to 2e-013
-Heightened Def Con from 8.43753e-013 to 5.46874e-012
-Heightened Def Con from 5.91e-006 to 5.922e-006
-Heightened Def Con from 3.5e-005 to 3.5013e-005
-Heightened Def Con from 4e-005 to 4.0013e-005
-Heightened Def Con from 5.091e-005 to 5.0914e-005
-Heightened Def Con from 6.091e-005 to 6.0914e-005
-Heightened Def Con from 0.00012 to 0.000120013
-Heightened Def Con from 0.00049 to 0.000490013
+Changing Tseed to 2e-015
+Changing Tseed to 2e-012
+Heightened Def Con from 2.00001e-012 to 5.002e-009
+Heightened Def Con from 4.98564e-006 to 4.98764e-006
+Heightened Def Con from 4.99997e-006 to 5.00397e-006
+Heightened Def Con from 3e-005 to 3.0004e-005
+Heightened Def Con from 3.5e-005 to 3.5004e-005
+Heightened Def Con from 4e-005 to 4.0004e-005
+Heightened Def Con from 4.5e-005 to 4.5004e-005
+Heightened Def Con from 5e-005 to 5.0004e-005
+Heightened Def Con from 6e-005 to 6.0004e-005
+Heightened Def Con from 0.00012 to 0.000120004
+Heightened Def Con from 0.00049 to 0.000490004
 
-Date: Mon May 22 20:57:48 2023
-Total elapsed time: 1.124 seconds.
+Date: Fri May 26 19:22:43 2023
+Total elapsed time: 1.015 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 156953
-traniter = 156932
-tranpoints = 42807
-accept = 32464
-rejected = 10350
-matrix size = 29
-fillins = 6
+totiter = 134829
+traniter = 134808
+tranpoints = 36991
+accept = 28167
+rejected = 8832
+matrix size = 32
+fillins = 8
 solver = Normal
-Matrix Compiler1: 1.55 KB object code size  0.4/0.2/[0.1]
-Matrix Compiler2: 2.12 KB object code size  0.2/0.3/[0.2]
+Matrix Compiler1: 1.77 KB object code size  0.4/0.2/[0.1]
+Matrix Compiler2: 2.36 KB object code size  0.2/0.4/[0.2]
 
