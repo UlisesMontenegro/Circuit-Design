@@ -1,35 +1,92 @@
-Circuit: * C:\Users\joaqu\Desktop\Circuit-Design\BUCK\BUCK_v4_average.asc
+Circuit: * D:\Uli\FIUBA\Materias\Diseño de Circuitos\TP\Circuit-Design\BUCK\BUCK_v4_average.asc
 
 WARNING: Less than two connections to node D.  This node is used by VDUTY1.
-Direct Newton iteration for .op point succeeded.
-Ignoring empty pin current: Ix(u1:1)
-Ignoring empty pin current: Ix(u1:2)
-Ignoring empty pin current: Ix(u1:3)
-Ignoring empty pin current: Ix(u1:5)
-Ignoring empty pin current: Ix(u1:1)
-Ignoring empty pin current: Ix(u1:2)
-Ignoring empty pin current: Ix(u1:3)
-Ignoring empty pin current: Ix(u1:5)
-Changing Tseed to 2e-013
-Heightened Def Con from 2.00061e-013 to 7.39982e-012
-Heightened Def Con from 5e-006 to 5.00813e-006
-Heightened Def Con from 3.591e-005 to 3.592e-005
-Heightened Def Con from 4e-005 to 4.0004e-005
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+Gmin = 1.6455e-006
+Gmin = 1.76685e-007
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 1.03202e-007
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+Gmin = 1.03774e-007
+vernier = 0.00390625
+vernier = 0.00520833
+Gmin = 1.02934e-007
+vernier = 0.00694444
+vernier = 0.00925925
+Gmin = 1.01134e-007
+vernier = 0.0123457
+Gmin = 9.83675e-008
+vernier = 0.0164609
+vernier = 0.0219478
+Gmin = 9.38955e-008
+vernier = 0.0292638
+vernier = 0.0390184
+Gmin = 8.71898e-008
+vernier = 0.0520245
+Gmin = 7.76122e-008
+vernier = 0.0693659
+vernier = 0.0924879
+Gmin = 6.38881e-008
+vernier = 0.123317
+vernier = 0.164423
+Gmin = 4.69305e-008
+vernier = 0.21923
+Gmin = 2.90025e-008
+vernier = 0.292307
+vernier = 0.389743
+Gmin = 1.30959e-008
+vernier = 0.519657
+vernier = 0.692876
+Gmin = 3.79617e-009
+vernier = 0.923834
+Gmin = 5.75929e-010
+vernier = 1
+Gmin = 6.18399e-011
+Gmin = 6.64001e-012
+Gmin = 7.12966e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
 
-Date: Fri May 26 20:06:37 2023
-Total elapsed time: 2.427 seconds.
+Ignoring empty pin current: Ix(u4:5)
+Ignoring empty pin current: Ix(u4:5)
+Changing Tseed to 2e-013
+Changing Tseed to 2e-015
+Heightened Def Con from 4.01077e-015 to 7.98797e-012
+Heightened Def Con from 5e-006 to 5.00813e-006
+Heightened Def Con from 3e-005 to 3.0014e-005
+Heightened Def Con from 3.5e-005 to 3.5004e-005
+Heightened Def Con from 4e-005 to 4.0004e-005
+Heightened Def Con from 5e-005 to 5.0004e-005
+Heightened Def Con from 5.091e-005 to 5.0914e-005
+Heightened Def Con from 0.00049 to 0.000490004
+
+Date: Fri May 26 21:13:04 2023
+Total elapsed time: 21.219 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 163075
-traniter = 163031
-tranpoints = 44519
-accept = 32478
-rejected = 12044
-matrix size = 58
-fillins = 34
+totiter = 2837723
+traniter = 2836152
+tranpoints = 745322
+accept = 554505
+rejected = 190823
+matrix size = 93
+fillins = 55
 solver = Normal
-Matrix Compiler1: 3.46 KB object code size  0.8/0.4/[0.2]
-Matrix Compiler2: off  [0.4]/1.1/0.5
+Matrix Compiler1: 6.65 KB object code size  1.3/0.4/[0.4]
+Matrix Compiler2: 7.77 KB object code size  0.5/0.7/[0.4]
 
