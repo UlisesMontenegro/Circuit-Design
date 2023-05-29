@@ -25,20 +25,20 @@ Ignoring empty pin current: Ix(u1:5)
 .step rload=8
 .step rload=20
 
-Date: Fri May 26 20:56:43 2023
-Total elapsed time: 0.433 seconds.
+Date: Mon May 29 16:48:21 2023
+Total elapsed time: 0.153 seconds.
 
 tnom = 27
 temp = 27
-method = modified trap
-totiter = 24538
-traniter = 24052
-tranpoints = 12027
-accept = 12027
+method = trap
+totiter = 482
+traniter = 0
+tranpoints = 0
+accept = 0
 rejected = 0
 matrix size = 26
-fillins = 23
+fillins = 22
 solver = Normal
-Matrix Compiler1:     111 opcodes  0.4/0.2/[0.2]
-Matrix Compiler2: 2.30 KB object code size  0.2/0.2/[0.1]
+Matrix Compiler1:     113 opcodes
+Matrix Compiler2: off  [0.1]/0.2/0.2
 
