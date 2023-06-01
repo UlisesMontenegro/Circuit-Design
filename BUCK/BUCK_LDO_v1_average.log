@@ -1,0 +1,102 @@
+Circuit: * C:\Users\joaqu\Desktop\Circuit-Design\BUCK\BUCK_LDO_v1_average.asc
+
+WARNING: Specified period is not longer than the sum of Trise, Tfall, and Ton for v:ldoa1:7.  Increasing period to 2
+WARNING: Less than two connections to node D.  This node is used by VDUTY1.
+WARNING: Less than two connections to node LDOA1:VSELA.  This node is used by V:LDOA1:SELA.
+WARNING: Less than two connections to node LDOA1:VCOMP_V.  This node is used by V:LDOA1:COMP.
+WARNING: Less than two connections to node LDOA1:VCOMP_I.  This node is used by V:LDOA1:COMP1.
+WARNING: Less than two connections to node LDOA1:FAST_OVLO.  This node is used by A:LDOA1:1.
+WARNING: Less than two connections to node LDOA1:VP_UVLO.  This node is used by V:LDOA1:4.
+WARNING: Less than two connections to node LDOA1:VP_OVLO.  This node is used by V:LDOA1:3.
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Increasing initial diagonal Gmin to 100
+Gmin = 100
+Gmin = 10.7374
+Gmin = 1.15292
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195313
+Gmin = 1.15292
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 0
+Singular matrix:  Check node ldoa1:u1:6
+   Iteration No. 19
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Singular matrix:  Check node ldoa1:u1:5
+   Iteration No. 3
+Singular matrix:  Check node ldoa1:u1:5
+   Iteration No. 1
+Singular matrix:  Check node ldoa1:u2:6
+   Iteration No. 1
+Singular matrix:  Check node ldoa1:u1:5
+   Iteration No. 1
+Singular matrix:  Check node ldoa1:u1:5
+   Iteration No. 1
+Singular matrix:  Check node ldoa1:u3:6
+   Iteration No. 1
+Singular matrix:  Check node ldoa1:u1:5
+   Iteration No. 1
+Singular matrix:  Check node ldoa1:u1:5
+   Iteration No. 1
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+Singular matrix:  Check node ldoa1:u1:6
+   Iteration No. 3
+Source stepping failed
+
+Pseudo Transient failed in finding the operating point at 5 µs.
+Trouble finding operating point....skipping operating point for Transient analysis.
+Ignoring empty pin current: Ix(u1:1)
+Ignoring empty pin current: Ix(u1:2)
+Ignoring empty pin current: Ix(u1:3)
+Ignoring empty pin current: Ix(u1:4)
+Ignoring empty pin current: Ix(u1:5)
+Ignoring empty pin current: Ix(u6:1)
+Ignoring empty pin current: Ix(u6:2)
+Ignoring empty pin current: Ix(u6:99)
+Ignoring empty pin current: Ix(u6:50)
+Ignoring empty pin current: Ix(u6:28)
+Ignoring empty pin current: Ix(u2:1)
+Ignoring empty pin current: Ix(u2:2)
+Ignoring empty pin current: Ix(u2:99)
+Ignoring empty pin current: Ix(u2:50)
+Ignoring empty pin current: Ix(u2:28)
+Ignoring empty pin current: Ix(u3:1)
+Ignoring empty pin current: Ix(u3:2)
+Ignoring empty pin current: Ix(u3:99)
+Ignoring empty pin current: Ix(u3:28)
+Ignoring empty pin current: Ix(u5:1)
+Ignoring empty pin current: Ix(u5:2)
+Ignoring empty pin current: Ix(u5:99)
+Ignoring empty pin current: Ix(u5:50)
+Ignoring empty pin current: Ix(u5:28)
+Ignoring empty pin current: Ix(u11:1)
+Ignoring empty pin current: Ix(u11:2)
+Ignoring empty pin current: Ix(u11:3)
+Ignoring empty pin current: Ix(ldoa1:sela)
+Changing Tseed to 1e-009
+Changing Tseed to 1e-011
+Changing Tseed to 1e-008
+Changing Tseed to 1e-012
+Changing Tseed to 1e-007
+Changing Tseed to 1e-013
+Changing Tseed to 1e-006
+Changing Tseed to 1e-014
+Changing Tseed to 1e-005
+Changing Tseed to 1e-015
+Changing Tseed to 0.0001
+Changing Tseed to 1e-016
+Fatal Error: Analysis:  Time step too small; initial timepoint: trouble with ldoa1:u8:ni-instance m:ldoa1:u8:3
+

@@ -1,0 +1,76 @@
+Circuit: * C:\Users\joaqu\Desktop\Circuit-Design\LDOA_Regulator\Regulador_LDOA_v10_con_symbol.asc
+
+WARNING: Specified period is not longer than the sum of Trise, Tfall, and Ton for v:ldoa:7.  Increasing period to 2
+WARNING: Less than two connections to node LDOA:VSELA.  This node is used by V:LDOA:SELA.
+WARNING: Less than two connections to node LDOA:VCOMP_V.  This node is used by V:LDOA:COMP.
+WARNING: Less than two connections to node LDOA:VCOMP_I.  This node is used by V:LDOA:COMP1.
+WARNING: Less than two connections to node LDOA:FAST_OVLO.  This node is used by A:LDOA:1.
+WARNING: Less than two connections to node LDOA:VP_UVLO.  This node is used by V:LDOA:4.
+WARNING: Less than two connections to node LDOA:VP_OVLO.  This node is used by V:LDOA:3.
+WARNING: Less than two connections to node N002.  This node is used by V3.
+Ignoring empty pin current: Ix(u6:1)
+Ignoring empty pin current: Ix(u6:2)
+Ignoring empty pin current: Ix(u6:99)
+Ignoring empty pin current: Ix(u6:50)
+Ignoring empty pin current: Ix(u6:28)
+Ignoring empty pin current: Ix(u1:1)
+Ignoring empty pin current: Ix(u1:2)
+Ignoring empty pin current: Ix(u1:99)
+Ignoring empty pin current: Ix(u1:50)
+Ignoring empty pin current: Ix(u1:28)
+Ignoring empty pin current: Ix(u2:1)
+Ignoring empty pin current: Ix(u2:2)
+Ignoring empty pin current: Ix(u2:99)
+Ignoring empty pin current: Ix(u2:50)
+Ignoring empty pin current: Ix(u2:28)
+Ignoring empty pin current: Ix(u3:1)
+Ignoring empty pin current: Ix(u3:2)
+Ignoring empty pin current: Ix(u3:99)
+Ignoring empty pin current: Ix(u3:50)
+Ignoring empty pin current: Ix(u3:28)
+Ignoring empty pin current: Ix(u5:1)
+Ignoring empty pin current: Ix(u5:2)
+Ignoring empty pin current: Ix(u5:99)
+Ignoring empty pin current: Ix(u5:50)
+Ignoring empty pin current: Ix(u5:28)
+Ignoring empty pin current: Ix(u11:1)
+Ignoring empty pin current: Ix(u11:2)
+Ignoring empty pin current: Ix(u11:3)
+Ignoring empty pin current: Ix(ldoa:sela)
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Increasing initial diagonal Gmin to 100
+Gmin = 100
+Gmin = 10.7374
+Gmin = 1.15292
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195313
+Gmin = 1.15292
+vernier = 0.000976563
+vernier = 0.000488281
+Singular matrix:  Check nodes ldoa:u1:6 and ldoa:u3:6
+   Iteration No. 11
+Gmin = 0
+Singular matrix:  Check nodes ldoa:u1:6 and ldoa:u3:6
+   Iteration No. 1
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+vernier = 0.25
+Source Step = 1.6572%
+Source Step = 1.83475%
+Source Step = 1.8969%
+Source Step = 1.92649%
+Source Step = 1.95608%
+Source Step = 1.98568%
+Source Step = 2.01527%
+vernier = 0.00146484
