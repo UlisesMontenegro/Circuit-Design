@@ -1,0 +1,27 @@
+Circuit: * C:\Users\joaqu\Desktop\Circuit-Design\BUCK\Regulador_completo_v1.asc
+
+WARNING: Less than two connections to node VREF1.  This node is used by Q3.
+WARNING: Less than two connections to node VREF.  This node is used by R15.
+Per .tran options, skipping operating point for transient analysis.
+Ignoring empty pin current: Ix(u1:1)
+Ignoring empty pin current: Ix(u1:2)
+Ignoring empty pin current: Ix(u1:3)
+Ignoring empty pin current: Ix(u1:4)
+Ignoring empty pin current: Ix(u1:5)
+Ignoring empty pin current: Ix(u8:vc)
+Ignoring empty pin current: Ix(u2:c)
+Ignoring empty pin current: Ix(u2:vssin)
+Ignoring empty pin current: Ix(u3:c)
+Ignoring empty pin current: Ix(u3:vssin)
+Changing Tseed to 1e-010
+Changing Tseed to 1e-012
+Changing Tseed to 1e-009
+Changing Tseed to 1e-013
+Changing Tseed to 1e-008
+Changing Tseed to 1e-014
+Changing Tseed to 1e-007
+Singular matrix:  Check nodes u7:49 and u6:5
+   Iteration No. 10
+Fatal Error: Singular matrix:  check nodes u7:49 and u6:5
+   Iteration No. 10
+
