@@ -1,0 +1,93 @@
+Circuit: * C:\Users\joaqu\Desktop\Circuit-Design\Regulador_completo\Regulador_completo_v1.asc
+
+WARNING: Less than two connections to node VREF1.  This node is used by Q3.
+WARNING: Less than two connections to node VREF.  This node is used by R15.
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 0.00100083
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+Gmin = 0.000997905
+vernier = 0.00195313
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 0.000996931
+Singular matrix:  Check node u6:5
+   Iteration No. 59
+Gmin = 0
+Singular matrix:  Check node u6:5
+   Iteration No. 1
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Singular matrix:  Check node u4:5
+   Iteration No. 56
+Singular matrix:  Check node u4:5
+   Iteration No. 1
+Singular matrix:  Check node u4:5
+   Iteration No. 1
+Source Step = 51.5152%
+Singular matrix:  Check node u4:5
+   Iteration No. 1
+Singular matrix:  Check nodes u10:6 and u6:6
+   Iteration No. 1
+Singular matrix:  Check node u4:5
+   Iteration No. 1
+Singular matrix:  Check nodes u10:6 and u6:6
+   Iteration No. 1
+Singular matrix:  Check nodes u10:6 and u6:6
+   Iteration No. 1
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source Step = 100%
+Source stepping failed
+
+Pseudo Transient failed in finding the operating point at 6.66833 µs.
+Trouble finding operating point....skipping operating point for Transient analysis.
+Ignoring empty pin current: Ix(u1:1)
+Ignoring empty pin current: Ix(u1:2)
+Ignoring empty pin current: Ix(u1:3)
+Ignoring empty pin current: Ix(u1:4)
+Ignoring empty pin current: Ix(u1:5)
+Ignoring empty pin current: Ix(u8:vc)
+Ignoring empty pin current: Ix(u2:c)
+Ignoring empty pin current: Ix(u2:vssin)
+Ignoring empty pin current: Ix(u3:c)
+Ignoring empty pin current: Ix(u3:vssin)
+Changing Tseed to 1e-009
+Changing Tseed to 1e-011
+Changing Tseed to 1e-008
+Changing Tseed to 1e-012
+Changing Tseed to 1e-007
+Changing Tseed to 1e-013
+Changing Tseed to 1e-006
+Changing Tseed to 1e-014
+Changing Tseed to 1e-005
+Changing Tseed to 1e-015
+Changing Tseed to 0.0001
+Changing Tseed to 1e-016
+Fatal Error: Analysis:  Time step too small; initial timepoint: trouble with irf530-instance m3
+

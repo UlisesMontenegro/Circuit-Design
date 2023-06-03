@@ -1,0 +1,53 @@
+* C:\Users\joaqu\Desktop\Circuit-Design\BUCK\BUCK_v7.asc
+Rf1 VREG_2 Vf_buck 24.2k
+Rf2 Vf_buck 0 5.7k
+Vref1 N013 0 1.2 AC 0
+XU1 N013 Vf_buck VPOS 0 Verr LM358
+C1 Vf_buck Verr 160p
+C2 N011 Verr 3n
+R1 Vf_buck N011 10k
+C3 N012 Vf_buck 1.2n
+R2 VREG_2 N012 830
+V1 N001 0 36
+L1 VS1 VREG_2 90µ
+C4 N003 0 10µ
+C5 N004 0 1n
+RL1 VREG_2 0 4.3
+R3 VREG_2 N003 100m
+R4 VREG_2 N004 0.1
+M1 N001 N002 VS1 VS1 IRF530
+M2 VS1 N005 0 0 IRF530
+D1 VS1 N001 D
+C6 N001 0 0
+Rdrv1 N005 VG_2 5
+Rdrv2 N002 VG_1 5
+V2 N015 0 PULSE(0 1 0 2.5u 2.5u 0 5u)
+XU2 Verr N015 VPOS 0 N014 LT1720
+Vg1 VPOS 0 12 AC 0
+Cboot N008 N009 150n
+Dboot N006 N008 1N4007
+V3 N010 0 7
+XU7 N014 H_in L_in dead_time Td=50ns
+XU8 VG_2 VG_1 0 0 L_in H_in VPOS N007 VS1 N010 0 IR2110
+V4 NC_01 0 PULSE(0 5 0 1n 1n 882n 5u)
+V5 NC_02 0 PULSE(5 0 0 1n 1n 882n 5u)
+R7 NC_03 N016 60k
+R8 N016 0 1k
+V6 N007 VS1 12
+.model D D
+.lib C:\Users\joaqu\Documents\LTspiceXVII\lib\cmp\standard.dio
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\joaqu\Documents\LTspiceXVII\lib\cmp\standard.mos
+.tran 0 1m 0 startup
+.inc LM358.txt
+.lib switching_average\switching.lib
+.lib switching_average\average.lib
+.MODEL 1N4007 D  ( IS=76.9p RS=42.0m BV=1.00k IBV=5.00u
++ CJO=26.5p  M=0.333 N=1.45 TT=4.32u )
+.include IR2110.txt
+* Triangular
+.lib IR2110.txt
+.lib LTC.lib
+.backanno
+.end

@@ -1,0 +1,120 @@
+* C:\Users\joaqu\Desktop\Circuit-Design\Regulador_completo\Regulador_completo_v2_average.asc
+Q1 N002 N002 P001 0 BC327-25
+Q2 Vod N002 P002 0 BC327-25
+Q3 N002 Vref2 Pol 0 BC546B
+Q4 Vod Vf Pol 0 BC546B
+Q§TIP1 Vs1 N003 VREG_2 0 TIP42C
+Q5 N003 Vod Vs1 0 Q2N6487
+Rf3 Vo Vf 3.16k
+Rf4 N008 0 840
+RL1 Vo 0 {RL}
+R5 VREG_2 P001 {RE}
+R6 VREG_2 P002 {RE}
+C8 N006 0 {CL}
+Rs1 Vo Vs1 0.1
+R7 Vs N018 1k
+R8 Vrefc N022 1k
+R9 N022 N021 100k
+R10 N018 0 100k
+Q6 Vod N020 0 0 2N2222
+R11 N012 Vs 100k
+R12 Vo N012 10k
+R13 Vs1 N011 10k
+R14 N011 0 100k
+R15 N013 Vref 50k
+R16 0 N013 10k
+R17 Vf N026 54.4k
+R18 N026 0 46k
+R19 N015 N014 10k
+R20 N015 N027 10k
+R21 Vrefc N016 10k
+R22 0 N016 10k
+Rf5 Vf N008 1K
+M1 N008 SELA 0 0 2N7002
+VSELA1 SELA 0 5
+R23 N021 N020 100
+Q7 N019 N019 N024 0 BC546B
+R24 N017 N019 4.7K
+Q8 Pol N019 N025 0 BC546B
+C9 Vod 0 100n
+XU4 N015 N016 VPOS 0 Vrefc LM358
+XU6 N013 N014 VPOS 0 N014 LM358
+XU7 N026 N027 VPOS 0 N027 LM358
+XU9 N018 N022 VPOS 0 N021 LM358
+XU10 N011 N012 VPOS 0 Vs LM358
+R25 Vo N006 1
+R26 N024 0 470
+R27 N025 0 470
+C10 N022 N021 100n
+C11 N012 Vs 100n
+V3 N001 0 36
+L2 Vsw VREG_2 90µ
+C12 N004 0 10µ
+C13 N005 0 1n
+R28 VREG_2 N004 100m
+R29 VREG_2 N005 0.1
+Rf6 VREG_2 Vf_buck 24.2k
+Rf7 Vf_buck 0 5.7k
+Vref3 N023 0 1.2 AC 0
+B1 N007 0 V=limit(V(x), 0.01, 0.9)
+Vz1 x y AC 0
+Vg2 VPOS 0 5 AC 0
+XU11 Vref2 Vf_buck VPOS 0 y LM358
+C14 Vf_buck y 160p
+C15 N009 y 3n
+R30 Vf_buck N009 10k
+C16 N010 Vf_buck 1.2n
+R31 VREG_2 N010 830
+XU12 N001 Vsw Vsw 0 N007 CCM2 Ron=0.16 VD=0 RD=0.16
+V1 N017 0 6.35
+R1 Vref2 N023 10
+C1 Vref2 0 15µ
+V4 NC_01 0 6.35
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\joaqu\Documents\LTspiceXVII\lib\cmp\standard.bjt
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\joaqu\Documents\LTspiceXVII\lib\cmp\standard.mos
+.lib switching_average\switching.lib
+.lib switching_average\average.lib
+* Librerias de simulacion
+.tran 0 3m 1n startup
+;ac dec 300 0.01 1Meg
+* Tipos de simulacion
+.param RL 50
+;step param RE 1k 1.5k 100
+.param RE 470
+;step param RL 100 0.1 0.25
+* Mido regulacion de linea
+.meas DC Vo1rl FIND V(Vo) AT=6.25
+.meas DC Vo2rl FIND V(Vo) AT=6.45
+.meas DC RegLin PARAM ((Vo2rl-Vo1rl)/0.2)
+* Mido regulacion de carga
+.meas OP Vo1rc FIND V(Vo) AT 100
+.meas OP Vo2rc FIND V(Vo) AT 10
+.meas OP Io1rc FIND I(RL) AT 100
+.meas OP Io2rc FIND I(RL) AT 10
+* Mido eficiencia
+* -100*((V(vo)*I(RL))/(V(VIN)*I(VIN)))
+.meas OP RegCar PARAM (-(Vo2rc-Vo1rc)/(Io2rc-Io1rc))
+* Lazo de Corriente
+;include TL081.txt
+* Referencia Lazo de Corriente
+;step param VINDC 4 12 0.1
+* Sumador
+* Selector
+.lib opamp.sub
+* Fuente de corriente de polarizacion\nEspejo Simple
+.param CL 7u
+* Parametros de carga
+* Parametros de fuentes
+* Parametros de simulacion
+* Modelos de simulacion
+;step param CL list 1u 15u
+.MODEL TIP42C PNP(Is=66.19f Xti=3 Eg=1.11 Vaf=100 Bf=137.6 Ise=862.2f Ne=1.481 Ikf=1.642 Nk=.5695 Xtb=2 Br=5.88 Isc=273.5f Nc=1.24 Ikr=3.555 Rc=79.39m Cjc=870.4p Mjc=.6481 Vjc=.75 Fc=.5 Cje=390.1p Mje=.4343 Vje=.75 Tr=235.4n Tf=23.21n Itf=71.33 Xtf=5.982 Vtf=10 Rb=.1 Vceo=100 Icrating=6 mfg=Texas)
+.include 2N6487.lib
+.include LM358.txt
+.model SW SW (Ron = 0.1 Roff = 100Meg Vt=0.5 Vh=0.25 )
+.backanno
+.end

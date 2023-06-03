@@ -1,5 +1,6 @@
 Circuit: * C:\Users\joaqu\Desktop\Circuit-Design\LDOA_Regulator\Regulador_LDOA_v6.asc
 
+Early termination of direct N-R iteration.
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
 Starting Gmin stepping
 Gmin = 10
@@ -20,5 +21,24 @@ Gmin = 2.70769e-013
 Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
-Heightened Def Con from 0.0205141 ++++++++++++++++++++++++++++++++++++++++++++++++++Fatal Error: Analysis:  Time step too small; time = 0.0205141, timestep = 1.29893e-017: trouble with 2n7002-instance m1
+
+
+
+Date: Fri Jun 02 20:44:26 2023
+Total elapsed time: 0.283 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2315
+traniter = 1764
+tranpoints = 625
+accept = 534
+rejected = 91
+matrix size = 227
+fillins = 364
+solver = Normal
+Thread vector: 13.4/8.5[3] 6.8/4.4[3] 4.8/3.7[2] 0.7/3.4[1]  2592/500
+Matrix Compiler1: 30.78 KB object code size  8.6/4.4/[2.3]
+Matrix Compiler2: 24.79 KB object code size  3.0/4.1/[1.6]
 

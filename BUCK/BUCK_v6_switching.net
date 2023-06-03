@@ -1,0 +1,49 @@
+* C:\Users\joaqu\Desktop\Circuit-Design\BUCK\BUCK_v6_switching.asc
+V1 N001 0 36
+L1 VS1 VREG_2 90µ
+C1 N003 0 10µ
+C2 N004 0 1n
+RL1 VREG_2 0 {RL1}
+R1 VREG_2 N003 100m
+R2 VREG_2 N004 0.1
+Vg1 VPOS 0 12 AC 0
+M2 N001 N002 VS1 VS1 IRF530
+M3 VS1 N005 0 0 IRF530
+D1 VS1 N001 D
+C4 N001 0 0
+Rdrv1 N005 VG_2 5
+Rdrv2 N002 VG_1 5
+XU8 N008 N009 PWM VM=1V, fs=200kHz Dmin=0.01 Dmax=0.9, Voffset=0
+V2 Vdd_driver 0 12
+XU2 N010 Vdd_driver 0 0 VG_2 driver Imax=3A Tdelay=10ns, IQ=1mA, Vuvl=5V
+XU3 N007 N006 VS1 0 VG_1 driver Imax=3A Tdelay=10ns, IQ=1mA, Vuvl=5V
+Rf1 VREG_2 Vf_buck 24.2k
+Rf2 Vf_buck 0 5.7k
+Vref1 N013 0 1.2 AC 0
+XU1 N013 Vf_buck VPOS 0 N008 LM358
+C3 Vf_buck N008 160p
+C6 N011 N008 3n
+R3 Vf_buck N011 10k
+C7 N012 Vf_buck 1.2n
+R4 VREG_2 N012 830
+XU5 N009 N007 N010 dead_time Td=50ns
+C5 N006 VS1 150n
+D2 Vdd_driver N006 1N4148
+.model D D
+.lib C:\Users\joaqu\Documents\LTspiceXVII\lib\cmp\standard.dio
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\joaqu\Documents\LTspiceXVII\lib\cmp\standard.mos
+.lib switching_average\switching.lib
+.lib switching_average\average.lib
+* Librerias de simulacion
+.tran 0 .5m 0 startup
+;ac dec 300 0.01 1Meg
+* Tipos de simulacion
+.inc LM339.txt
+.inc LM358.txt
+* VS1+Vdd_driver
+.options reltol=0.0005
+.step param RL1 list 3.29 64.5
+.backanno
+.end
