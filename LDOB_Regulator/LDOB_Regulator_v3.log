@@ -1,0 +1,70 @@
+Circuit: * D:\Uli\FIUBA\Materias\Diseño de Circuitos\TP\Circuit-Design\LDOB_Regulator\LDOB_Regulator_v3.asc
+
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+vernier = 0.5
+vernier = 0.666667
+Gmin = 0.402032
+vernier = 0.888888
+vernier = 1
+Gmin = 0.0567082
+Gmin = 0.006089
+Gmin = 0.000653801
+Gmin = 7.02013e-005
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+Gmin = 5.5225e-005
+vernier = 0.0625
+vernier = 0.0833333
+Gmin = 4.85304e-005
+vernier = 0.111111
+vernier = 0.148148
+Gmin = 3.67384e-005
+vernier = 0.197531
+Gmin = 2.3787e-005
+vernier = 0.263374
+vernier = 0.351165
+Gmin = 1.15877e-005
+vernier = 0.46822
+vernier = 0.624294
+Gmin = 3.77126e-006
+vernier = 0.832392
+Gmin = 6.79098e-007
+vernier = 1
+Gmin = 7.29176e-008
+Gmin = 7.82947e-009
+Gmin = 8.40683e-010
+Gmin = 9.02676e-011
+Gmin = 9.69241e-012
+Gmin = 1.04071e-012
+Gmin = 1.11746e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Heightened Def Con from 0.01 ++++++++++++++to 0.01
+Heightened Def Con from 0.01 to 0.01
+
+
+
+Date: Fri Jun 09 20:59:24 2023
+Total elapsed time: 0.447 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 7183
+traniter = 5879
+tranpoints = 2641
+accept = 2487
+rejected = 170
+matrix size = 222
+fillins = 421
+solver = Normal
+Thread vector: 9.6/5.3[3] 3.2/2.4[3] 2.5/1.8[3] 0.6/0.9[1]  2592/500
+Matrix Compiler1: 35.20 KB object code size  6.3/1.8/[1.7]
+Matrix Compiler2: 25.33 KB object code size  1.4/1.9/[1.2]
+
