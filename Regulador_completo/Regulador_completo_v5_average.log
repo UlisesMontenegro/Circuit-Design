@@ -1,0 +1,71 @@
+Circuit: * C:\Users\joaqu\Desktop\Circuit-Design\Regulador_completo\Regulador_completo_v5_average.asc
+
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+vernier = 0.5
+Gmin = 2.9562e-005
+vernier = 0.25
+vernier = 0.333333
+Gmin = 1.78317e-005
+vernier = 0.444444
+vernier = 0.592592
+Gmin = 6.12532e-006
+vernier = 0.790123
+Gmin = 1.19514e-006
+vernier = 1
+Gmin = 1.28327e-007
+Gmin = 1.3779e-008
+Gmin = 1.47951e-009
+Gmin = 1.58861e-010
+Gmin = 1.70576e-011
+Gmin = 1.83154e-012
+Gmin = 1.9666e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Ignoring empty pin current: Ix(u2:5)
+Ignoring empty pin current: Ix(u2:5)
+Heightened Def Con from 4.62141e-006 +++++++++++++++++++to 4.62441e-006
+Heightened Def Con from 2.05609e-005 to 2.05609e-005
+Heightened Def Con from 3.46361e-005 to 3.46361e-005
+Heightened Def Con from 3.61078e-005 to 3.61088e-005
+Heightened Def Con from 3.65338e-005 to 3.65348e-005
+Heightened Def Con from 3.76281e-005 to 3.76291e-005
+Heightened Def Con from 3.77195e-005 to 3.77205e-005
+Heightened Def Con from 3.80164e-005 to 3.80174e-005
+Heightened Def Con from 3.80594e-005 to 3.80604e-005
+Heightened Def Con from 3.82252e-005 to 3.82262e-005
+Heightened Def Con from 3.83487e-005 to 3.83497e-005
+Heightened Def Con from 3.83557e-005 to 3.83567e-005
+Heightened Def Con from 3.85584e-005 to 3.85594e-005
+Heightened Def Con from 3.86434e-005 to 3.86444e-005
+Heightened Def Con from 3.87354e-005 to 3.87355e-005
+Heightened Def Con from 3.8878e-005 to 3.8879e-005
+Heightened Def Con from 3.90207e-005 to 3.90209e-005
+Heightened Def Con from 3.91625e-005 to 3.91635e-005
+
+Date: Tue Jun 13 19:01:53 2023
+Total elapsed time: 1.670 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 16243
+traniter = 15470
+tranpoints = 3474
+accept = 2555
+rejected = 956
+matrix size = 278
+fillins = 518
+solver = Normal
+Thread vector: 72.2/35.3[4] 18.4/12.5[4] 23.8/13.3[4] 2.4/4.8[1]  2592/500
+Matrix Compiler1: 43.50 KB object code size  26.3/21.5/[3.0]
+Matrix Compiler2: 31.89 KB object code size  14.8/15.6/[5.1]
+

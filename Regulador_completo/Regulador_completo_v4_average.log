@@ -1,0 +1,60 @@
+Circuit: * C:\Users\joaqu\Desktop\Circuit-Design\Regulador_completo\Regulador_completo_v4_average.asc
+
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+Gmin = 1.6455e-006
+Gmin = 1.76685e-007
+Singular matrix:  Check node u1:6
+   Iteration No. 76
+Gmin = 0
+Singular matrix:  Check nodes u4:6 and u6:5
+   Iteration No. 1
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Singular matrix:  Check node u6:5
+   Iteration No. 3
+Singular matrix:  Check node u6:5
+   Iteration No. 1
+Singular matrix:  Check node u5:6
+   Iteration No. 1
+Singular matrix:  Check node u4:6
+   Iteration No. 1
+Singular matrix:  Check node u4:6
+   Iteration No. 1
+Singular matrix:  Check node u4:6
+   Iteration No. 1
+Singular matrix:  Check nodes u3:49 and u5:6
+   Iteration No. 1
+Singular matrix:  Check node u4:6
+   Iteration No. 1
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+Singular matrix:  Check node u5:6
+   Iteration No. 3
+Source stepping failed
+
+Pseudo Transient failed in finding the operating point at 5 µs.
+Trouble finding operating point....skipping operating point for Transient analysis.
+Ignoring empty pin current: Ix(u2:5)
+Changing Tseed to 3e-008
+Changing Tseed to 3e-010
+Changing Tseed to 3e-007
+Changing Tseed to 3e-011
+Changing Tseed to 3e-006
+Changing Tseed to 3e-012
+Changing Tseed to 3e-005
+Singular matrix:  Check nodes u4:6 and u6:5
+   Iteration No. 12
+Fatal Error: Singular matrix:  check nodes u4:6 and u6:5
+   Iteration No. 12
+
