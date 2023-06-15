@@ -11,39 +11,70 @@ Gmin = 0.00132923
 Gmin = 0.000142725
 Gmin = 1.5325e-005
 vernier = 0.5
-Gmin = 4.35418e-006
-vernier = 0.666667
-vernier = 0.888888
-Gmin = 7.73794e-007
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 5.02168e-006
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0208333
+Gmin = 4.84859e-006
+vernier = 0.0277778
+vernier = 0.037037
+Gmin = 4.53744e-006
+vernier = 0.0493827
+Gmin = 4.07524e-006
+vernier = 0.0658435
+vernier = 0.0877914
+Gmin = 3.41975e-006
+vernier = 0.117055
+vernier = 0.156073
+Gmin = 2.59373e-006
+vernier = 0.208098
+Gmin = 1.66218e-006
+vernier = 0.277464
+vernier = 0.369952
+Gmin = 8.10299e-007
+vernier = 0.493269
+vernier = 0.657691
+Gmin = 2.65626e-007
+vernier = 0.876922
+Gmin = 4.60562e-008
 vernier = 1
-Gmin = 8.6905e-008
-Gmin = 9.33136e-009
-Gmin = 1.00195e-009
-Gmin = 1.07583e-010
-Gmin = 1.15517e-011
-Gmin = 1.24035e-012
-Gmin = 1.33182e-013
+Gmin = 5.07005e-009
+Gmin = 5.44392e-010
+Gmin = 5.84537e-011
+Gmin = 6.27641e-012
+Gmin = 6.73925e-013
 Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
+Heightened Def Con from 0.0400004 ++to 0.0400004
+Heightened Def Con from 0.0400004 +to 0.0400004
+Heightened Def Con from 0.0400004 +to 0.0400004
+Heightened Def Con from 0.0400004 to 0.0400004
+Heightened Def Con from 0.0400004 to 0.0400004
+Heightened Def Con from 0.0400004 to 0.0400004
+Heightened Def Con from 0.0400004 +++++++++++++++to 0.0400004
+Heightened Def Con from 0.0400004 to 0.0400004
 
 
 
-Date: Fri Jun 02 20:45:39 2023
-Total elapsed time: 0.774 seconds.
+Date: Wed Jun 14 20:35:09 2023
+Total elapsed time: 1.333 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 3771
-traniter = 3034
-tranpoints = 1518
-accept = 1518
-rejected = 0
-matrix size = 225
-fillins = 359
+totiter = 8404
+traniter = 6994
+tranpoints = 2107
+accept = 1784
+rejected = 350
+matrix size = 227
+fillins = 560
 solver = Normal
-Thread vector: 14.3/8.2[3] 7.1/5.4[3] 5.1/2.7[3] 0.8/1.2[1]  2592/500
-Matrix Compiler1: 29.79 KB object code size  7.3/3.6/[2.1]
-Matrix Compiler2: 24.58 KB object code size  3.2/4.0/[1.8]
+Thread vector: 39.3/21.2[3] 11.7/9.2[3] 8.0/6.3[3] 2.0/2.1[1]  2592/500
+Matrix Compiler1: 43.27 KB object code size  9.4/4.3/[2.7]
+Matrix Compiler2: 28.09 KB object code size  8.3/10.1/[4.3]
 
