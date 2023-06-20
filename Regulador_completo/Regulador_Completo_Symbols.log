@@ -1,0 +1,133 @@
+Circuit: * D:\Uli\FIUBA\Materias\Diseño de Circuitos\TP\Circuit-Design\Regulador_completo\Regulador_Completo_Symbols.asc
+
+ldoa:rf2: both pins shorted together -- ignoring.
+WARNING: Less than two connections to node LDOA:N004.  This node is used by M:LDOA:1.
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+vernier = 0.5
+vernier = 0.25
+Gmin = 4.4017e-005
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+Gmin = 4.36227e-005
+vernier = 0.0416667
+vernier = 0.0555555
+Gmin = 3.92617e-005
+vernier = 0.074074
+Gmin = 3.32809e-005
+vernier = 0.0987653
+vernier = 0.131687
+Gmin = 2.52561e-005
+vernier = 0.175583
+vernier = 0.23411
+Gmin = 1.63262e-005
+vernier = 0.312147
+Gmin = 8.28466e-006
+vernier = 0.416196
+vernier = 0.554928
+Gmin = 2.72056e-006
+vernier = 0.739903
+vernier = 0.986537
+Gmin = 4.87619e-007
+vernier = 1
+Gmin = 5.29254e-008
+Gmin = 5.68282e-009
+Gmin = 6.10188e-010
+Gmin = 6.55185e-011
+Gmin = 7.03499e-012
+Gmin = 7.55377e-013
+Gmin = 0
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Ignoring empty pin current: Ix(u1:1)
+Ignoring empty pin current: Ix(u1:2)
+Ignoring empty pin current: Ix(u1:99)
+Ignoring empty pin current: Ix(u1:50)
+Ignoring empty pin current: Ix(u1:28)
+Ignoring empty pin current: Ix(u2:1)
+Ignoring empty pin current: Ix(u2:2)
+Ignoring empty pin current: Ix(u2:99)
+Ignoring empty pin current: Ix(u2:50)
+Ignoring empty pin current: Ix(u2:28)
+Ignoring empty pin current: Ix(u3:1)
+Ignoring empty pin current: Ix(u3:2)
+Ignoring empty pin current: Ix(u3:99)
+Ignoring empty pin current: Ix(u3:50)
+Ignoring empty pin current: Ix(u3:28)
+Ignoring empty pin current: Ix(u4:1)
+Ignoring empty pin current: Ix(u4:2)
+Ignoring empty pin current: Ix(u4:99)
+Ignoring empty pin current: Ix(u4:50)
+Ignoring empty pin current: Ix(u4:28)
+Ignoring empty pin current: Ix(u5:1)
+Ignoring empty pin current: Ix(u5:2)
+Ignoring empty pin current: Ix(u5:99)
+Ignoring empty pin current: Ix(u5:50)
+Ignoring empty pin current: Ix(u5:28)
+Ignoring empty pin current: Ix(buck:vin)
+Ignoring empty pin current: Ix(buck:vop)
+Ignoring empty pin current: Ix(u1:1)
+Ignoring empty pin current: Ix(u1:2)
+Ignoring empty pin current: Ix(u1:99)
+Ignoring empty pin current: Ix(u1:50)
+Ignoring empty pin current: Ix(u1:28)
+Ignoring empty pin current: Ix(u2:1)
+Ignoring empty pin current: Ix(u2:2)
+Ignoring empty pin current: Ix(u2:99)
+Ignoring empty pin current: Ix(u2:50)
+Ignoring empty pin current: Ix(u2:28)
+Ignoring empty pin current: Ix(u3:1)
+Ignoring empty pin current: Ix(u3:2)
+Ignoring empty pin current: Ix(u3:99)
+Ignoring empty pin current: Ix(u3:50)
+Ignoring empty pin current: Ix(u3:28)
+Ignoring empty pin current: Ix(u4:1)
+Ignoring empty pin current: Ix(u4:2)
+Ignoring empty pin current: Ix(u4:99)
+Ignoring empty pin current: Ix(u4:50)
+Ignoring empty pin current: Ix(u4:28)
+Ignoring empty pin current: Ix(u5:1)
+Ignoring empty pin current: Ix(u5:2)
+Ignoring empty pin current: Ix(u5:99)
+Ignoring empty pin current: Ix(u5:50)
+Ignoring empty pin current: Ix(u5:28)
+Ignoring empty pin current: Ix(buck:vin)
+Ignoring empty pin current: Ix(buck:vop)
+Heightened Def Con from 4.62572e-006 +++++++++++++++++++to 4.62872e-006
+Heightened Def Con from 2.05212e-005 to 2.05212e-005
+Heightened Def Con from 2.05232e-005 +to 2.05232e-005
+Heightened Def Con from 2.05282e-005 +to 2.05292e-005
+Heightened Def Con from 4.23956e-005 +++++++to 4.23956e-005
+Heightened Def Con from 4.23966e-005 to 4.23966e-005
+Heightened Def Con from 9.64572e-005 to 9.64572e-005
+Heightened Def Con from 0.000319793 to 0.000319794
+
+
+
+Date: Tue Jun 20 16:16:06 2023
+Total elapsed time: 0.647 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 14239
+traniter = 12831
+tranpoints = 3056
+accept = 2243
+rejected = 849
+matrix size = 302
+fillins = 519
+solver = Normal
+Thread vector: 15.1/8.6[4] 5.3/3.6[4] 4.2/3.4[4] 0.7/1.2[1]  2592/500
+Matrix Compiler1: 44.30 KB object code size  8.2/2.4/[2.2]
+Matrix Compiler2: 33.74 KB object code size  2.4/2.7/[1.5]
+
