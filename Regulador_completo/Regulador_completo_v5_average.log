@@ -1,9 +1,8 @@
-Circuit: * C:\Users\joaqu\Desktop\Circuit-Design\Regulador_completo\Regulador_completo_v5_average.asc
+Circuit: * D:\Uli\FIUBA\Materias\Diseño de Circuitos\TP\Circuit-Design\Regulador_completo\Regulador_completo_v5_average.asc
 
-Rf4: both pins shorted together -- ignoring.
+M2: all pins shorted together -- ignoring.
 WARNING: Node N001 is floating.
 
-WARNING: Less than two connections to node N014.  This node is used by M2.
 Early termination of direct N-R iteration.
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
 Starting Gmin stepping
@@ -14,80 +13,60 @@ Gmin = 0.0123794
 Gmin = 0.00132923
 Gmin = 0.000142725
 vernier = 0.5
-Gmin = 2.9562e-005
 vernier = 0.25
-vernier = 0.333333
-Gmin = 1.78317e-005
-vernier = 0.444444
-vernier = 0.592592
-Gmin = 6.12532e-006
-vernier = 0.790123
-Gmin = 1.19514e-006
-vernier = 1
-Gmin = 1.28327e-007
-Gmin = 1.3779e-008
-Gmin = 1.47951e-009
-Gmin = 1.58861e-010
-Gmin = 1.70576e-011
-Gmin = 1.83154e-012
-Gmin = 1.9666e-013
+Gmin = 4.4017e-005
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+Gmin = 4.4307e-005
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195313
+vernier = 0.000976563
+Gmin = 4.40485e-005
+vernier = 0.000488281
 Gmin = 0
-Gmin stepping succeeded in finding the operating point.
+Gmin stepping failed
 
-Ignoring empty pin current: Ix(u2:5)
-Ignoring empty pin current: Ix(u2:5)
-Heightened Def Con from 4.50488e-006 ++++++++++++++++++++to 4.50888e-006
-Heightened Def Con from 2.05619e-005 to 2.05629e-005
-Heightened Def Con from 3.45153e-005 to 3.45153e-005
-Heightened Def Con from 3.57828e-005 to 3.57828e-005
-Heightened Def Con from 3.60348e-005 to 3.60358e-005
-Heightened Def Con from 3.60378e-005 to 3.60379e-005
-Heightened Def Con from 3.60417e-005 to 3.60427e-005
-Heightened Def Con from 3.60769e-005 to 3.60779e-005
-Heightened Def Con from 3.60979e-005 to 3.60989e-005
-Heightened Def Con from 3.61488e-005 to 3.61489e-005
-Heightened Def Con from 3.63433e-005 to 3.63443e-005
-Heightened Def Con from 3.64297e-005 to 3.64307e-005
-Heightened Def Con from 3.67174e-005 to 3.67184e-005
-Heightened Def Con from 3.67501e-005 to 3.67511e-005
-Heightened Def Con from 3.69681e-005 to 3.69691e-005
-Heightened Def Con from 3.70462e-005 to 3.70472e-005
-Heightened Def Con from 3.72383e-005 to 3.72393e-005
-Heightened Def Con from 3.73301e-005 to 3.73311e-005
-Heightened Def Con from 3.75198e-005 to 3.75208e-005
-Heightened Def Con from 3.77106e-005 to 3.77116e-005
-Heightened Def Con from 3.77176e-005 to 3.77186e-005
-Heightened Def Con from 3.78438e-005 to 3.78448e-005
-Heightened Def Con from 3.78468e-005 to 3.78478e-005
-Heightened Def Con from 3.78778e-005 to 3.78788e-005
-Heightened Def Con from 3.79884e-005 to 3.79894e-005
-Heightened Def Con from 3.79954e-005 to 3.79956e-005
-Heightened Def Con from 3.80888e-005 to 3.80898e-005
-Heightened Def Con from 3.82413e-005 to 3.82423e-005
-Heightened Def Con from 3.82723e-005 to 3.82733e-005
-Heightened Def Con from 3.83618e-005 to 3.83628e-005
-Heightened Def Con from 3.84048e-005 to 3.84058e-005
-Heightened Def Con from 3.86082e-005 to 3.86083e-005
-Heightened Def Con from 3.86721e-005 to 3.86723e-005
-Heightened Def Con from 4.25711e-005 to 4.25711e-005
-Heightened Def Con from 4.25721e-005 to 4.25721e-005
-Heightened Def Con from 9.66865e-005 to 9.66865e-005
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Singular matrix:  Check node u4:5
+   Iteration No. 3
+Singular matrix:  Check nodes u5:6 and u6:6
+   Iteration No. 1
+Singular matrix:  Check nodes u6:6 and u7:6
+   Iteration No. 1
+Singular matrix:  Check nodes u6:6 and u7:6
+   Iteration No. 1
+Singular matrix:  Check node u6:6
+   Iteration No. 1
+Singular matrix:  Check node u6:6
+   Iteration No. 1
+Singular matrix:  Check node u4:5
+   Iteration No. 1
+Singular matrix:  Check node u4:5
+   Iteration No. 1
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+Singular matrix:  Check node u3:6
+   Iteration No. 3
+Source stepping failed
 
-Date: Thu Jun 15 21:13:36 2023
-Total elapsed time: 1.870 seconds.
-
-tnom = 27
-temp = 27
-method = modified trap
-totiter = 23882
-traniter = 23103
-tranpoints = 4673
-accept = 3295
-rejected = 1434
-matrix size = 304
-fillins = 560
-solver = Normal
-Thread vector: 74.1/44.2[4] 15.7/10.1[4] 15.9/10.9[4] 2.6/2.2[2]  2592/500
-Matrix Compiler1: 47.16 KB object code size  18.2/9.3/[5.1]
-Matrix Compiler2: 34.59 KB object code size  14.8/14.1/[5.4]
+Pseudo Transient failed in finding the operating point at 5 µs.
+Trouble finding operating point....skipping operating point for Transient analysis.
+Ignoring empty pin current: Ix(u9:5)
+Changing Tseed to 1e-007
+Changing Tseed to 1e-009
+Changing Tseed to 1e-006
+Changing Tseed to 1e-010
+Changing Tseed to 1e-005
+Changing Tseed to 1e-011
+Changing Tseed to 0.0001
+Changing Tseed to 1e-012
+Changing Tseed to 0.001
+Changing Tseed to 1e-013
+Changing Tseed to 0.01
+Changing Tseed to 1e-014
+Fatal Error: Analysis:  Time step too small; initial timepoint: trouble with fds6685-instance m1
 
