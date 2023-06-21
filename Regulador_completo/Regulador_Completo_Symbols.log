@@ -9,42 +9,29 @@ Gmin = 0.115292
 Gmin = 0.0123794
 Gmin = 0.00132923
 Gmin = 0.000142725
-vernier = 0.5
-vernier = 0.25
-Gmin = 4.4017e-005
-vernier = 0.125
-vernier = 0.0625
-vernier = 0.03125
-vernier = 0.015625
-Gmin = 4.44794e-005
-vernier = 0.0078125
-vernier = 0.00390625
-vernier = 0.00520833
-Gmin = 4.42626e-005
-vernier = 0.00694444
-vernier = 0.00347222
-vernier = 0.00173611
-Gmin = 4.40328e-005
-vernier = 0.000868055
-vernier = 0.000434028
+Gmin = 1.5325e-005
+Gmin = 1.6455e-006
+Gmin = 1.76685e-007
+Gmin = 1.89714e-008
+Gmin = 2.03704e-009
+Gmin = 2.18725e-010
+Gmin = 2.34854e-011
+Gmin = 2.52173e-012
+Gmin = 2.70769e-013
 Gmin = 0
 Gmin stepping succeeded in finding the operating point.
 
-Ignoring empty pin current: Ix(u1:1)
-Ignoring empty pin current: Ix(u1:2)
-Ignoring empty pin current: Ix(u1:99)
-Ignoring empty pin current: Ix(u1:50)
-Ignoring empty pin current: Ix(u1:28)
-Ignoring empty pin current: Ix(u2:1)
-Ignoring empty pin current: Ix(u2:2)
-Ignoring empty pin current: Ix(u2:99)
-Ignoring empty pin current: Ix(u2:50)
-Ignoring empty pin current: Ix(u2:28)
 Ignoring empty pin current: Ix(u3:1)
 Ignoring empty pin current: Ix(u3:2)
 Ignoring empty pin current: Ix(u3:99)
 Ignoring empty pin current: Ix(u3:50)
 Ignoring empty pin current: Ix(u3:28)
+Ignoring empty pin current: Ix(u1:2)
+Ignoring empty pin current: Ix(u1:3)
+Ignoring empty pin current: Ix(u1:1)
+Ignoring empty pin current: Ix(u2:2)
+Ignoring empty pin current: Ix(u2:3)
+Ignoring empty pin current: Ix(u2:1)
 Ignoring empty pin current: Ix(u4:1)
 Ignoring empty pin current: Ix(u4:2)
 Ignoring empty pin current: Ix(u4:99)
@@ -57,21 +44,18 @@ Ignoring empty pin current: Ix(u5:50)
 Ignoring empty pin current: Ix(u5:28)
 Ignoring empty pin current: Ix(buck:vin)
 Ignoring empty pin current: Ix(buck:vop)
-Ignoring empty pin current: Ix(u1:1)
-Ignoring empty pin current: Ix(u1:2)
-Ignoring empty pin current: Ix(u1:99)
-Ignoring empty pin current: Ix(u1:50)
-Ignoring empty pin current: Ix(u1:28)
-Ignoring empty pin current: Ix(u2:1)
-Ignoring empty pin current: Ix(u2:2)
-Ignoring empty pin current: Ix(u2:99)
-Ignoring empty pin current: Ix(u2:50)
-Ignoring empty pin current: Ix(u2:28)
+Ignoring empty pin current: Ix(ldoa:vop)
 Ignoring empty pin current: Ix(u3:1)
 Ignoring empty pin current: Ix(u3:2)
 Ignoring empty pin current: Ix(u3:99)
 Ignoring empty pin current: Ix(u3:50)
 Ignoring empty pin current: Ix(u3:28)
+Ignoring empty pin current: Ix(u1:2)
+Ignoring empty pin current: Ix(u1:3)
+Ignoring empty pin current: Ix(u1:1)
+Ignoring empty pin current: Ix(u2:2)
+Ignoring empty pin current: Ix(u2:3)
+Ignoring empty pin current: Ix(u2:1)
 Ignoring empty pin current: Ix(u4:1)
 Ignoring empty pin current: Ix(u4:2)
 Ignoring empty pin current: Ix(u4:99)
@@ -84,29 +68,25 @@ Ignoring empty pin current: Ix(u5:50)
 Ignoring empty pin current: Ix(u5:28)
 Ignoring empty pin current: Ix(buck:vin)
 Ignoring empty pin current: Ix(buck:vop)
-Heightened Def Con from 4.51656e-006 ++++++++++++++++++++to 4.52056e-006
-Heightened Def Con from 2.02135e-005 +to 2.02155e-005
-Heightened Def Con from 2.05223e-005 +to 2.05224e-005
-Heightened Def Con from 2.05285e-005 ++++++++++to 2.05285e-005
-Heightened Def Con from 2.05295e-005 to 2.05295e-005
+Ignoring empty pin current: Ix(ldoa:vop)
 
 
 
-Date: Tue Jun 20 18:53:21 2023
-Total elapsed time: 0.703 seconds.
+Date: Tue Jun 20 21:00:59 2023
+Total elapsed time: 0.506 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 12981
-traniter = 10877
-tranpoints = 2585
-accept = 1900
-rejected = 722
-matrix size = 288
-fillins = 706
+totiter = 14551
+traniter = 14147
+tranpoints = 3856
+accept = 3125
+rejected = 731
+matrix size = 293
+fillins = 723
 solver = Normal
-Thread vector: 15.2/9.2[4] 5.6/3.2[4] 4.6/2.8[4] 0.7/1.1[1]  2592/500
-Matrix Compiler1: 61.29 KB object code size  10.1/3.1/[3.1]
-Matrix Compiler2: 35.91 KB object code size  2.2/2.2/[1.3]
+Thread vector: 14.0/8.0[4] 5.1/3.9[4] 4.2/2.9[4] 0.8/1.3[1]  2592/500
+Matrix Compiler1: 61.20 KB object code size  10.7/3.2/[2.9]
+Matrix Compiler2: 36.56 KB object code size  2.6/3.0/[1.5]
 
