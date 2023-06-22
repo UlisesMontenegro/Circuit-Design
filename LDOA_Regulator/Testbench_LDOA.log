@@ -1,0 +1,136 @@
+Circuit: * C:\Users\joaqu\Desktop\Circuit-Design\LDOA_Regulator\Testbench_LDOA.asc
+
+L1: both pins shorted together -- ignoring.
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Increasing initial diagonal Gmin to 100
+Gmin = 100
+Gmin = 10.7374
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 12.6177
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+Gmin = 12.6536
+vernier = 0.00195313
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Semiconductor Device Operating Points:
+                        --- Diodes ---
+Name:    d:u5:on     d:u5:op    d:u5:onm    d:u5:opm    d:u5:inr
+Model:   u5:mdth     u5:mdth     u5:mdth     u5:mdth     u5:mdth
+Id:     -2.86e-09    4.54e-01    4.58e-01   -3.16e-09   -2.08e-11
+Vd:     -2.86e+03    1.02e+00    1.02e+00   -3.16e+03   -2.08e+01
+Req:     1.00e+12    5.70e-02    5.65e-02    1.00e+12    1.00e+12
+CAP:     7.48e-26    8.57e-24    8.58e-24    7.11e-26    8.56e-25
+
+Name:   d:u5:inn     d:u5:in     d:u5:ip     d:u4:on     d:u4:op
+Model:   u5:mdth     u5:mdth     u5:mdth     u4:mdth     u4:mdth
+Id:     -2.84e-09    1.00e-05   -2.06e-10   -2.86e-09    4.02e-01
+Vd:     -2.84e+03    7.38e-01   -2.06e+02   -2.86e+03    1.01e+00
+Req:     1.00e+12    2.59e+03    1.00e+12    1.00e+12    6.44e-02
+CAP:     7.51e-26    7.01e-24    2.78e-25    7.48e-26    8.56e-24
+
+Name:   d:u4:onm    d:u4:opm    d:u4:inr    d:u4:inn     d:u4:in
+Model:   u4:mdth     u4:mdth     u4:mdth     u4:mdth     u4:mdth
+Id:      4.06e-01   -3.16e-09   -2.62e-09   -2.34e-10    1.00e-05
+Vd:      1.01e+00   -3.16e+03   -2.62e+03   -2.34e+02    7.38e-01
+Req:     6.37e-02    1.00e+12    1.00e+12    1.00e+12    2.59e+03
+CAP:     8.56e-24    7.11e-26    7.81e-26    2.61e-25    7.01e-24
+
+Name:    d:u4:ip     d:u3:on     d:u3:op    d:u3:onm    d:u3:opm
+Model:   u4:mdth     u3:mdth     u3:mdth     u3:mdth     u3:mdth
+Id:     -2.04e-10   -2.86e-09    4.02e-01    4.06e-01   -3.16e-09
+Vd:     -2.04e+02   -2.86e+03    1.01e+00    1.01e+00   -3.16e+03
+Req:     1.00e+12    1.00e+12    6.44e-02    6.37e-02    1.00e+12
+CAP:     2.79e-25    7.48e-26    8.56e-24    8.56e-24    7.11e-26
+
+Name:   d:u3:inr    d:u3:inn     d:u3:in     d:u3:ip     d:u2:on
+Model:   u3:mdth     u3:mdth     u3:mdth     u3:mdth     u2:mdth
+Id:     -2.92e-10   -2.57e-09    1.00e-05   -2.27e-09   -2.86e-09
+Vd:     -2.92e+02   -2.57e+03    7.38e-01   -2.27e+03   -2.86e+03
+Req:     1.00e+12    1.00e+12    2.59e+03    1.00e+12    1.00e+12
+CAP:     2.34e-25    7.89e-26    7.01e-24    8.39e-26    7.48e-26
+
+Name:    d:u2:op    d:u2:onm    d:u2:opm    d:u2:inr    d:u2:inn
+Model:   u2:mdth     u2:mdth     u2:mdth     u2:mdth     u2:mdth
+Id:      4.02e-01    4.06e-01   -3.16e-09   -2.93e-10   -2.57e-09
+Vd:      1.01e+00    1.01e+00   -3.16e+03   -2.93e+02   -2.57e+03
+Req:     6.44e-02    6.37e-02    1.00e+12    1.00e+12    1.00e+12
+CAP:     8.56e-24    8.56e-24    7.11e-26    2.33e-25    7.90e-26
+
+Name:    d:u2:in     d:u2:ip     d:u1:on     d:u1:op    d:u1:onm
+Model:   u2:mdth     u2:mdth     u1:mdth     u1:mdth     u1:mdth
+Id:      1.00e-05   -2.27e-09   -2.86e-09    5.44e-01    5.41e-01
+Vd:      7.38e-01   -2.27e+03   -2.86e+03    1.02e+00    1.02e+00
+Req:     2.59e+03    1.00e+12    1.00e+12    4.75e-02    4.78e-02
+CAP:     7.01e-24    8.39e-26    7.48e-26    8.60e-24    8.60e-24
+
+Name:   d:u1:opm    d:u1:inr    d:u1:inn     d:u1:in     d:u1:ip
+Model:   u1:mdth     u1:mdth     u1:mdth     u1:mdth     u1:mdth
+Id:     -3.16e-09   -2.71e-09   -1.28e-09   -1.14e-09    1.00e-05
+Vd:     -3.16e+03   -2.71e+03   -1.28e+03   -1.14e+03    7.38e-01
+Req:     1.00e+12    1.00e+12    1.00e+12    1.00e+12    2.59e+03
+CAP:     7.12e-26    7.68e-26    1.12e-25    1.19e-25    7.01e-24
+
+                        --- Bipolar Transistors ---
+Name:       q6          q5        q§tip1        q8          q7
+Model:    2n2222      q2n6487     tip42c      bc546b      bc546b
+Ib:      -5.73e-09    9.89e-04   -1.47e-01    1.09e-05    3.57e-06
+Ic:       2.87e-09    1.47e-01   -3.88e+00    9.98e-04    1.01e-03
+Vbe:     -2.86e+03    4.84e-01   -8.77e-01    6.40e-01    6.39e-01
+Vbc:     -2.87e+03   -1.86e-01    6.70e-01    5.52e-01    0.00e+00
+Vce:      4.89e+00    6.70e-01   -1.55e+00    8.84e-02    6.39e-01
+BetaDC:  -5.00e-01    1.49e+02    2.63e+01    9.19e+01    2.82e+02
+Gm:       0.00e+00    6.10e+00    7.45e+01    3.82e-02    3.83e-02
+Rpi:      1.00e+12    2.22e+01    1.77e-01    6.99e+03    7.32e+03
+Rx:       1.00e+01    4.57e+00    1.00e-01    1.00e+00    1.00e+00
+Ro:       0.00e+00    7.79e+01    2.59e+01    6.33e+02    6.12e+04
+Cbe:      1.64e-12    3.77e-09    3.68e-06    6.38e-11    6.27e-11
+Cbc:      5.26e-13    2.09e-10    6.69e-10    2.35e-11    2.31e-12
+Cjs:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+BetaAC:   0.00e+00    1.36e+02    1.32e+01    2.67e+02    2.81e+02
+Cbx:      0.00e+00    5.24e-11    0.00e+00    1.44e-11    1.42e-12
+Ft:       7.33e-02    2.41e+08    3.22e+06    5.97e+07    9.18e+07
+
+Name:       q4          q3          q2          q1
+Model:    bc546b      bc546b     bc327-25    bc327-25
+Ib:       3.47e-10    3.32e-06   -3.02e-06   -3.02e-06
+Ic:       8.73e-08    9.95e-04   -9.89e-04   -9.89e-04
+Vbe:      3.93e-01    6.37e-01   -5.89e-01   -5.89e-01
+Vbc:     -3.93e+00   -3.69e+00    7.18e-03    0.00e+00
+Vce:      4.32e+00    4.33e+00   -5.96e-01   -5.89e-01
+BetaDC:   2.51e+02    2.99e+02    3.27e+02    3.27e+02
+Gm:       3.34e-06    3.78e-02    3.84e-02    3.84e-02
+Rpi:      7.96e+07    7.87e+03    8.74e+03    8.74e+03
+Rx:       1.00e+00    1.00e+00    6.73e-01    6.73e-01
+Ro:       7.58e+08    6.57e+04    3.01e+04    3.00e+04
+Cbe:      1.84e-11    6.16e-11    1.11e-10    1.11e-10
+Cbc:      1.14e-12    1.16e-12    1.21e-11    1.22e-11
+Cjs:      0.00e+00    0.00e+00    0.00e+00    0.00e+00
+BetaAC:   2.66e+02    2.98e+02    3.36e+02    3.36e+02
+Cbx:      7.02e-13    7.14e-13    1.43e-11    1.44e-11
+Ft:       2.62e+04    9.49e+07    4.45e+07    4.45e+07
+
+                        --- VDMOSFET Transistors ---
+Name:          m1
+Model:       2n7002
+Id:          9.51e-04
+Vgs:         4.99e+00
+Vds:         2.03e-03
+Vth:         1.60e+00
+Gm:          2.81e-04
+Gds:         7.20e-01
+Cgs:         5.00e-11
+Cgd:         8.00e-11
+Cbody:       4.99e-11
+
+
