@@ -1,110 +1,115 @@
+.STEP increment has wrong sign -- fixing...
 Circuit: * D:\Uli\FIUBA\Materias\Diseño de Circuitos\TP\Circuit-Design\LDOB_Regulator\LDOB_Regulator_v3.asc
 
-V1: Missing value, assumed 0V @ DC
-Early termination of direct N-R iteration.
-Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
-Starting Gmin stepping
-Gmin = 10
-Gmin = 1.07374
-Gmin = 0.115292
-Gmin = 0.0123794
-Gmin = 0.00132923
-Gmin = 0.000142725
-Gmin = 1.5325e-005
-vernier = 0.5
-Gmin = 2.5711e-006
-vernier = 0.25
-vernier = 0.125
-vernier = 0.0625
-vernier = 0.03125
-vernier = 0.015625
-vernier = 0.0078125
-Gmin = 2.5711e-006
-vernier = 0.00390625
-vernier = 0.00195313
-vernier = 0.000976563
-Gmin = 2.56171e-006
-vernier = 0.000488281
-Gmin = 0
-Gmin stepping failed
+Direct Newton iteration for .op point succeeded.
+Semiconductor Device Operating Points:
+                        --- Diodes ---
+Name:    d:u1:on     d:u1:op    d:u1:onm    d:u1:opm    d:u1:inr
+Model:   u1:mdth     u1:mdth     u1:mdth     u1:mdth     u1:mdth
+Id:     -2.63e-09    3.01e+00    3.01e+00   -2.94e-09   -2.44e-09
+Vd:     -2.63e+03    1.06e+00    1.06e+00   -2.94e+03   -2.44e+03
+Req:     1.00e+12    8.60e-03    8.59e-03    1.00e+12    1.00e+12
+CAP:     7.79e-26    8.85e-24    8.85e-24    7.38e-26    8.10e-26
 
-Starting source stepping with srcstepmethod=0
-Source Step = 3.0303%
-Source Step = 33.3333%
-Source Step = 63.6364%
-Source Step = 93.9394%
-Source Step = 96.9815%
-Source Step = 97.0111%
-Source Step = 97.0407%
-Source Step = 97.0703%
-Source Step = 97.0999%
-Source Step = 97.1295%
-Singular matrix:  Check nodes u5:5 and u3:6
-   Iteration No. 65
-Singular matrix:  Check nodes u3:6 and u1:6
-   Iteration No. 1
-Singular matrix:  Check nodes u3:6 and u1:6
-   Iteration No. 1
-Singular matrix:  Check nodes u3:6 and u1:6
-   Iteration No. 1
-Singular matrix:  Check nodes u5:5 and u3:6
-   Iteration No. 1
-Singular matrix:  Check nodes u3:6 and u1:6
-   Iteration No. 1
-Singular matrix:  Check nodes u3:6 and u1:6
-   Iteration No. 1
-Singular matrix:  Check nodes u5:5 and u3:6
-   Iteration No. 1
-Singular matrix:  Check node u4:6
-   Iteration No. 1
-Singular matrix:  Check nodes u3:6 and u1:6
-   Iteration No. 1
-Starting source stepping with srcstepmethod=1
-Source Step = 3.0303%
-Source Step = 33.3333%
-Source Step = 63.6364%
-Source Step = 93.9394%
-Source Step = 100%
-Source Step = 100%
-Source Step = 100%
-Singular matrix:  Check node u4:5
-   Iteration No. 338
-Singular matrix:  Check nodes n016 and u4:6
-   Iteration No. 1
-Singular matrix:  Check nodes u4:6 and u5:6
-   Iteration No. 1
-Singular matrix:  Check nodes n016 and u1:6
-   Iteration No. 1
-Singular matrix:  Check nodes u4:6 and u5:6
-   Iteration No. 1
-Singular matrix:  Check nodes u4:6 and u5:6
-   Iteration No. 1
-Singular matrix:  Check nodes u4:6 and u5:6
-   Iteration No. 1
-Singular matrix:  Check nodes u4:6 and u5:6
-   Iteration No. 1
-Singular matrix:  Check nodes u4:6 and u5:6
-   Iteration No. 1
-Source stepping failed
+Name:   d:u1:inn     d:u1:in     d:u1:ip     d:u5:on     d:u5:op
+Model:   u1:mdth     u1:mdth     u1:mdth     u5:mdth     u5:mdth
+Id:     -1.97e-10    1.00e-05   -1.88e-10   -2.65e-09    4.23e-01
+Vd:     -1.97e+02    7.38e-01   -1.88e+02   -2.65e+03    1.01e+00
+Req:     1.00e+12    2.59e+03    1.00e+12    1.00e+12    6.12e-02
+CAP:     2.84e-25    7.01e-24    2.91e-25    7.77e-26    8.56e-24
 
-Pseudo Transient succeeded in finding the operating point at 578.304 ms.
+Name:   d:u5:onm    d:u5:opm    d:u5:inr    d:u5:inn     d:u5:in
+Model:   u5:mdth     u5:mdth     u5:mdth     u5:mdth     u5:mdth
+Id:      4.27e-01   -2.96e-09   -2.20e-11   -2.63e-09    1.00e-05
+Vd:      1.01e+00   -2.96e+03   -2.20e+01   -2.63e+03    7.38e-01
+Req:     6.06e-02    1.00e+12    1.00e+12    1.00e+12    2.59e+03
+CAP:     8.57e-24    7.36e-26    8.34e-25    7.80e-26    7.01e-24
 
+Name:    d:u5:ip     d:u4:on     d:u4:op    d:u4:onm    d:u4:opm
+Model:   u5:mdth     u4:mdth     u4:mdth     u4:mdth     u4:mdth
+Id:     -1.91e-10   -2.65e-09    5.07e-01    5.04e-01   -2.95e-09
+Vd:     -1.91e+02   -2.65e+03    1.02e+00    1.02e+00   -2.95e+03
+Req:     1.00e+12    1.00e+12    5.10e-02    5.13e-02    1.00e+12
+CAP:     2.89e-25    7.77e-26    8.59e-24    8.59e-24    7.36e-26
 
+Name:   d:u4:inr    d:u4:inn     d:u4:in     d:u4:ip     d:u3:on
+Model:   u4:mdth     u4:mdth     u4:mdth     u4:mdth     u3:mdth
+Id:     -2.52e-09   -1.19e-09   -1.05e-09    1.00e-05   -2.65e-09
+Vd:     -2.52e+03   -1.19e+03   -1.05e+03    7.38e-01   -2.65e+03
+Req:     1.00e+12    1.00e+12    1.00e+12    2.59e+03    1.00e+12
+CAP:     7.97e-26    1.16e-25    1.23e-25    7.01e-24    7.76e-26
 
-Date: Tue Jun 20 17:43:25 2023
-Total elapsed time: 2.521 seconds.
+Name:    d:u3:op    d:u3:onm    d:u3:opm    d:u3:inr    d:u3:inn
+Model:   u3:mdth     u3:mdth     u3:mdth     u3:mdth     u3:mdth
+Id:      3.74e-01    3.79e-01   -2.96e-09   -2.71e-10   -2.38e-09
+Vd:      1.01e+00    1.01e+00   -2.96e+03   -2.71e+02   -2.38e+03
+Req:     6.91e-02    6.83e-02    1.00e+12    1.00e+12    1.00e+12
+CAP:     8.55e-24    8.55e-24    7.35e-26    2.42e-25    8.19e-26
 
-tnom = 27
-temp = 27
-method = trap
-totiter = 11203
-traniter = 0
-tranpoints = 0
-accept = 0
-rejected = 8
-matrix size = 222
-fillins = 1846
-solver = Normal
-Matrix Compiler1: 356.57 KB object code size  40.0/12.5/[12.5]
-Matrix Compiler2: 49.27 KB object code size  1.6/1.3/[1.1]
+Name:    d:u3:in     d:u3:ip     d:u6:on     d:u6:op    d:u6:onm
+Model:   u3:mdth     u3:mdth     u6:mdth     u6:mdth     u6:mdth
+Id:      1.00e-05   -2.11e-09   -2.65e-09    3.74e-01    3.79e-01
+Vd:      7.38e-01   -2.11e+03   -2.65e+03    1.01e+00    1.01e+00
+Req:     2.59e+03    1.00e+12    1.00e+12    6.91e-02    6.83e-02
+CAP:     7.01e-24    8.71e-26    7.76e-26    8.55e-24    8.55e-24
+
+Name:   d:u6:opm    d:u6:inr    d:u6:inn     d:u6:in     d:u6:ip
+Model:   u6:mdth     u6:mdth     u6:mdth     u6:mdth     u6:mdth
+Id:     -2.96e-09   -2.71e-10   -2.38e-09    1.00e-05   -2.11e-09
+Vd:     -2.96e+03   -2.71e+02   -2.38e+03    7.38e-01   -2.11e+03
+Req:     1.00e+12    1.00e+12    1.00e+12    2.59e+03    1.00e+12
+CAP:     7.35e-26    2.42e-25    8.19e-26    7.01e-24    8.71e-26
+
+                        --- Bipolar Transistors ---
+Name:       q7        q2n6487    q§tip42c       q4          q3
+Model:    2n2222      q2n6487     tip42c     bc327-25    bc327-25
+Ib:      -5.27e-09    1.03e-03   -2.03e-01   -2.81e-06   -3.13e-06
+Ic:       2.64e-09    2.03e-01   -4.71e+00   -1.03e-03   -1.03e-03
+Vbe:     -2.64e+03    4.86e-01   -8.90e-01   -5.87e-01   -5.90e-01
+Vbc:     -2.64e+03   -3.89e+00    4.38e+00    3.71e+00    0.00e+00
+Vce:      1.47e+00    4.38e+00   -5.27e+00   -4.30e+00   -5.90e-01
+BetaDC:  -5.00e-01    1.97e+02    2.32e+01    3.68e+02    3.28e+02
+Gm:       0.00e+00    8.44e+00    8.84e+01    4.01e-02    3.98e-02
+Rpi:      1.00e+12    2.13e+01    1.29e-01    9.41e+03    8.44e+03
+Rx:       1.00e+01    4.57e+00    1.00e-01    6.77e-01    6.70e-01
+Ro:       0.00e+00    7.49e+01    2.21e+01    3.24e+04    2.90e+04
+Cbe:      1.69e-12    4.39e-09    4.85e-06    1.12e-10    1.12e-10
+Cbc:      5.41e-13    1.25e-10    2.62e-10    4.76e-12    1.22e-11
+Cjs:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+BetaAC:   0.00e+00    1.80e+02    1.14e+01    3.77e+02    3.36e+02
+Cbx:      0.00e+00    3.14e-11    0.00e+00    5.61e-12    1.44e-11
+Ft:       7.14e-02    2.96e+08    2.89e+06    5.22e+07    4.58e+07
+
+Name:       q9          q8          q2          q1
+Model:    bc546b      bc546b      bc546b      bc546b
+Ib:       2.32e-05    3.76e-06   -1.86e-12    3.43e-06
+Ic:       1.03e-03    1.06e-03    1.42e-12    1.03e-03
+Vbe:      6.43e-01    6.41e-01   -4.46e-01    6.38e-01
+Vbc:      5.79e-01    0.00e+00   -1.35e+00   -3.98e+00
+Vce:      6.46e-02    6.41e-01    9.03e-01    4.61e+00
+BetaDC:   4.46e+01    2.82e+02   -7.59e-01    3.01e+02
+Gm:       3.99e-02    4.03e-02    3.56e-20    3.92e-02
+Rpi:      6.26e+03    6.96e+03    1.00e+12    7.62e+03
+Rx:       1.00e+00    1.00e+00    1.00e+00    1.00e+00
+Ro:       2.28e+02    5.81e+04    7.06e+22    6.36e+04
+Cbe:      6.72e-11    6.41e-11    1.15e-11    6.26e-11
+Cbc:      2.62e-11    2.31e-12    1.49e-12    1.14e-12
+Cjs:      0.00e+00    0.00e+00    0.00e+00    0.00e+00
+BetaAC:   2.50e+02    2.80e+02    3.56e-08    2.99e+02
+Cbx:      1.61e-11    1.42e-12    9.18e-13    7.00e-13
+Ft:       5.80e+07    9.45e+07    1.15e-02    9.69e+07
+
+                        --- VDMOSFET Transistors ---
+Name:          m1
+Model:       2n7002
+Id:          1.07e-04
+Vgs:         7.00e+00
+Vds:         1.74e-04
+Vth:         1.60e+00
+Gm:          1.98e-05
+Gds:         1.15e+00
+Cgs:         5.00e-11
+Cgd:         8.00e-11
+Cbody:       5.00e-11
+
 
