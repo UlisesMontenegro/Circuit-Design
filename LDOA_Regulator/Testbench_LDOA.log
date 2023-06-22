@@ -1,161 +1,52 @@
-.STEP increment has wrong sign -- fixing...
 Circuit: * D:\Uli\FIUBA\Materias\Diseño de Circuitos\TP\Circuit-Design\LDOA_Regulator\Testbench_LDOA.asc
 
 Early termination of direct N-R iteration.
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
 Starting Gmin stepping
-Increasing initial diagonal Gmin to 100
-Increasing initial diagonal Gmin to 1000
-Increasing initial diagonal Gmin to 10000
-Gmin = 10000
+Gmin = 10
 vernier = 0.5
+Gmin = 1.67772
 vernier = 0.25
 vernier = 0.125
 vernier = 0.0625
-Gmin = 9694.67
+Gmin = 1.28069
 vernier = 0.03125
 vernier = 0.015625
 vernier = 0.0078125
 vernier = 0.00390625
-Gmin = 9712.84
 vernier = 0.00195313
 vernier = 0.000976563
 vernier = 0.000488281
 Gmin = 0
-Gmin stepping failed
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
 
-Starting source stepping with srcstepmethod=0
-Source Step = 3.0303%
-Source Step = 33.3333%
-Source Step = 63.6364%
-Source Step = 93.9394%
-Source stepping succeeded in finding the operating point.
+Ignoring empty pin current: Ix(u1:2)
+Ignoring empty pin current: Ix(u1:1)
+Ignoring empty pin current: Ix(u2:2)
+Ignoring empty pin current: Ix(u2:3)
+Ignoring empty pin current: Ix(u2:1)
+Ignoring empty pin current: Ix(u1:2)
+Ignoring empty pin current: Ix(u1:1)
+Ignoring empty pin current: Ix(u2:2)
+Ignoring empty pin current: Ix(u2:3)
+Ignoring empty pin current: Ix(u2:1)
 
-Semiconductor Device Operating Points:
-                        --- Diodes ---
-Name:    d:u5:p      d:u5:ln     d:u5:lp     d:u5:e      d:u5:c
-Model:    u5:dx       u5:dx       u5:dx       u5:dx       u5:dx
-Id:     -1.20e-11   -4.00e-11   -4.00e-11    1.33e-09   -9.67e-12
-Vd:     -1.20e+01   -4.00e+01   -4.00e+01    3.70e-01   -9.67e+00
-Req:     1.00e+12    1.00e+12    1.00e+12    1.95e+07    1.00e+12
-CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Date: Thu Jun 22 12:37:58 2023
+Total elapsed time: 0.842 seconds.
 
-Name:    d:u4:p      d:u4:ln     d:u4:lp     d:u4:e      d:u4:c
-Model:    u4:dx       u4:dx       u4:dx       u4:dx       u4:dx
-Id:     -1.20e-11   -4.00e-11   -4.00e-11   -5.64e-14   -9.24e-12
-Vd:     -1.20e+01   -4.00e+01   -4.00e+01   -5.57e-02   -9.24e+00
-Req:     1.00e+12    1.00e+12    1.00e+12    9.96e+11    1.00e+12
-CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-
-Name:    d:u3:p      d:u3:ln     d:u3:lp     d:u3:e      d:u3:c
-Model:    u3:dx       u3:dx       u3:dx       u3:dx       u3:dx
-Id:     -1.20e-11   -4.00e-11   -4.00e-11    2.78e-06   -9.87e-12
-Vd:     -1.20e+01   -4.00e+01   -4.00e+01    5.68e-01   -9.87e+00
-Req:     1.00e+12    1.00e+12    1.00e+12    9.29e+03    1.00e+12
-CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-
-Name:    d:u2:p      d:u2:ln     d:u2:lp     d:u2:e      d:u2:c
-Model:    u2:dx       u2:dx       u2:dx       u2:dx       u2:dx
-Id:     -1.20e-11   -4.00e-11   -4.00e-11    5.87e-08   -9.77e-12
-Vd:     -1.20e+01   -4.00e+01   -4.00e+01    4.68e-01   -9.77e+00
-Req:     1.00e+12    1.00e+12    1.00e+12    4.40e+05    1.00e+12
-CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-
-Name:    d:u1:p      d:u1:ln     d:u1:lp     d:u1:e      d:u1:c
-Model:    u1:dx       u1:dx       u1:dx       u1:dx       u1:dx
-Id:     -1.20e-11   -4.00e-11   -4.00e-11    1.65e-08   -9.74e-12
-Vd:     -1.20e+01   -4.00e+01   -4.00e+01    4.36e-01   -9.74e+00
-Req:     1.00e+12    1.00e+12    1.00e+12    1.56e+06    1.00e+12
-CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-
-                        --- Bipolar Transistors ---
-Name:     q:u5:2      q:u5:1      q:u4:2      q:u4:1      q:u3:2
-Model:     u5:qx       u5:qx       u4:qx       u4:qx       u3:qx
-Ib:      -2.06e-08   -2.04e-08   -2.06e-08   -2.04e-08   -2.76e-08
-Ic:      -5.16e-06   -5.11e-06   -5.15e-06   -5.11e-06   -6.91e-06
-Vbe:     -5.84e-01   -5.84e-01   -5.84e-01   -5.84e-01   -5.92e-01
-Vbc:      1.45e-04    8.84e-04    1.68e-01    1.69e-01   -5.17e-02
-Vce:     -5.84e-01   -5.85e-01   -7.52e-01   -7.52e-01   -5.40e-01
-BetaDC:   2.50e+02    2.50e+02    2.50e+02    2.50e+02    2.50e+02
-Gm:       1.99e-04    1.98e-04    1.99e-04    1.97e-04    2.67e-04
-Rpi:      1.25e+06    1.27e+06    1.26e+06    1.27e+06    9.36e+05
-Rx:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Ro:       3.25e+13    3.35e+13    2.13e+16    2.19e+16    4.38e+12
-Cbe:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cbc:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cjs:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-BetaAC:   2.50e+02    2.50e+02    2.50e+02    2.50e+02    2.50e+02
-Cbx:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Ft:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-
-Name:     q:u3:1      q:u2:2      q:u2:1      q:u1:2      q:u1:1
-Model:     u3:qx       u2:qx       u2:qx       u1:qx       u1:qx
-Ib:      -1.35e-08   -2.08e-08   -2.03e-08   -2.07e-08   -2.04e-08
-Ic:      -3.36e-06   -5.19e-06   -5.07e-06   -5.17e-06   -5.10e-06
-Vbe:     -5.73e-01   -5.84e-01   -5.84e-01   -5.84e-01   -5.84e-01
-Vbc:      4.99e-03    8.93e-02    9.12e-02    4.06e-02    4.17e-02
-Vce:     -5.78e-01   -6.74e-01   -6.75e-01   -6.25e-01   -6.26e-01
-BetaDC:   2.50e+02    2.50e+02    2.50e+02    2.50e+02    2.50e+02
-Gm:       1.30e-04    2.01e-04    1.96e-04    2.00e-04    1.97e-04
-Rpi:      1.92e+06    1.25e+06    1.27e+06    1.25e+06    1.27e+06
-Rx:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Ro:       3.92e+13    1.02e+15    1.10e+15    1.56e+14    1.62e+14
-Cbe:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cbc:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Cjs:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-BetaAC:   2.50e+02    2.50e+02    2.50e+02    2.50e+02    2.50e+02
-Cbx:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-Ft:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-
-Name:       q6          q5        q§tip1        q8          q7
-Model:    2n2222      q2n6487     tip42c      bc546b      bc546b
-Ib:       4.97e-06    8.14e-06   -2.04e-03    1.08e-05    3.57e-06
-Ic:       9.89e-04    2.04e-03   -2.23e-01    9.98e-04    1.01e-03
-Vbe:      6.55e-01    3.74e-01   -7.49e-01    6.40e-01    6.39e-01
-Vbc:      2.36e-01   -5.16e+00    5.53e+00    5.52e-01    0.00e+00
-Vce:      4.19e-01    5.53e+00   -6.28e+00    8.86e-02    6.39e-01
-BetaDC:   1.99e+02    2.50e+02    1.10e+02    9.22e+01    2.82e+02
-Gm:       3.81e-02    9.08e-02    7.60e+00    3.82e-02    3.83e-02
-Rpi:      5.20e+03    2.70e+03    1.33e+01    6.99e+03    7.32e+03
-Rx:       1.00e+01    4.68e+00    1.00e-01    1.00e+00    1.00e+00
-Ro:       1.01e+05    8.86e+03    4.72e+02    6.36e+02    6.11e+04
-Cbe:      5.44e-11    8.86e-10    1.77e-07    6.38e-11    6.27e-11
-Cbc:      9.06e-12    1.17e-10    2.20e-10    2.35e-11    2.31e-12
-Cjs:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
-BetaAC:   1.98e+02    2.45e+02    1.01e+02    2.67e+02    2.81e+02
-Cbx:      0.00e+00    2.93e-11    0.00e+00    1.44e-11    1.42e-12
-Ft:       9.56e+07    1.40e+07    6.82e+06    5.97e+07    9.18e+07
-
-Name:       q4          q3          q2          q1
-Model:    bc546b      bc546b     bc327-25    bc327-25
-Ib:      -1.04e-12    3.30e-06   -2.63e-06   -3.02e-06
-Ic:       4.80e-13    9.95e-04   -9.97e-04   -9.89e-04
-Vbe:     -5.57e-01    6.37e-01   -5.85e-01   -5.89e-01
-Vbc:     -4.14e-01   -4.07e+00    4.85e+00    0.00e+00
-Vce:     -1.43e-01    4.71e+00   -5.44e+00   -5.89e-01
-BetaDC:  -4.61e-01    3.01e+02    3.79e+02    3.27e+02
-Gm:      -1.12e-19    3.78e-02    3.88e-02    3.84e-02
-Rpi:      1.00e+12    7.91e+03    1.01e+04    8.74e+03
-Rx:       1.00e+00    1.00e+00    6.82e-01    6.73e-01
-Ro:       8.87e+18    6.61e+04    3.47e+04    3.00e+04
-Cbe:      1.11e-11    6.15e-11    1.11e-10    1.11e-10
-Cbc:      1.87e-12    1.13e-12    4.25e-12    1.22e-11
-Cjs:      0.00e+00    0.00e+00    0.00e+00    0.00e+00
-BetaAC:  -1.12e-07    3.00e+02    3.90e+02    3.36e+02
-Cbx:      1.15e-12    6.96e-13    5.01e-12    1.44e-11
-Ft:       1.13e-02    9.51e+07    5.15e+07    4.45e+07
-
-                        --- VDMOSFET Transistors ---
-Name:          m1
-Model:       2n7002
-Id:          5.37e-06
-Vgs:         4.99e+00
-Vds:         1.15e-05
-Vth:         1.60e+00
-Gm:          1.59e-06
-Gds:         7.20e-01
-Cgs:         5.00e-11
-Cgd:         8.00e-11
-Cbody:       5.00e-11
-
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 4932
+traniter = 3253
+tranpoints = 1390
+accept = 1294
+rejected = 96
+matrix size = 217
+fillins = 1834
+solver = Normal
+Thread vector: 9.6/6.7[3] 4.2/3.5[3] 4.1/2.5[3] 1.1/2.1[1]  2592/500
+Matrix Compiler1: 229.44 KB object code size  28.4/9.2/[7.1]
+Matrix Compiler2: 47.54 KB object code size  5.6/3.3/[2.6]
 
