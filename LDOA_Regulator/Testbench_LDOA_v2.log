@@ -1,54 +1,333 @@
+.STEP increment has wrong sign -- fixing...
 Circuit: * C:\Users\joaqu\Desktop\Circuit-Design\LDOA_Regulator\Testbench_LDOA_v2.asc
 
+Ignoring empty pin current: Ix(u1:2)
+Ignoring empty pin current: Ix(u1:1)
+Ignoring empty pin current: Ix(u2:2)
+Ignoring empty pin current: Ix(u2:3)
+Ignoring empty pin current: Ix(u2:1)
 Early termination of direct N-R iteration.
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
 Starting Gmin stepping
 Gmin = 10
 vernier = 0.5
-Gmin = 1.86414
 vernier = 0.25
-vernier = 0.333333
-Gmin = 1.0828
-vernier = 0.166667
-vernier = 0.0833333
-vernier = 0.0416667
-vernier = 0.0208333
-vernier = 0.0104167
-vernier = 0.00520833
-vernier = 0.00260417
-vernier = 0.00130208
-vernier = 0.000651042
-Gmin = 1.0828
+Gmin = 2.09715
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195313
+vernier = 0.000976563
 vernier = 0.000488281
 Gmin = 0
-Gmin stepping succeeded in finding the operating point.
+Gmin = 0
+Gmin stepping failed
 
-Ignoring empty pin current: Ix(u1:2)
-Ignoring empty pin current: Ix(u1:1)
-Ignoring empty pin current: Ix(u2:2)
-Ignoring empty pin current: Ix(u2:3)
-Ignoring empty pin current: Ix(u2:1)
-Ignoring empty pin current: Ix(u1:2)
-Ignoring empty pin current: Ix(u1:1)
-Ignoring empty pin current: Ix(u2:2)
-Ignoring empty pin current: Ix(u2:3)
-Ignoring empty pin current: Ix(u2:1)
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 66.6785%
+Source Step = 66.7081%
+Source Step = 66.7377%
+Source Step = 66.7673%
+Source Step = 66.7969%
+vernier = 0.00146484
+Source Step = 66.8294%
+Source Step = 66.8738%
+Source Step = 66.9182%
+Source Step = 66.9626%
+Source Step = 67.007%
+vernier = 0.00219727
+Source Step = 67.0536%
+Source Step = 67.1202%
+Source Step = 67.1868%
+Source Step = 67.2533%
+Source Step = 67.3199%
+Source Step = 67.3865%
+vernier = 0.0032959
+Source Step = 67.4864%
+Source Step = 67.5863%
+Source Step = 67.6861%
+Source Step = 67.786%
+Source Step = 67.8859%
+vernier = 0.00494385
+Source Step = 68.0307%
+Source Step = 68.1805%
+Source Step = 68.3303%
+Source Step = 68.4802%
+Source Step = 68.63%
+vernier = 0.00741577
+Source Step = 68.8397%
+Source Step = 69.0644%
+Source Step = 69.2891%
+Source Step = 69.5139%
+Source Step = 69.7386%
+vernier = 0.0111237
+Source Step = 70.042%
+Source Step = 70.379%
+Source Step = 70.7161%
+Source Step = 71.0532%
+Source Step = 71.3903%
+vernier = 0.0166855
+Source Step = 71.8285%
+Source Step = 72.3341%
+Source Step = 72.8397%
+Source Step = 73.3453%
+Source Step = 73.851%
+vernier = 0.0250282
+Source Step = 74.483%
+Source Step = 75.2414%
+Source Step = 75.9999%
+Source Step = 76.7583%
+Source Step = 77.5167%
+vernier = 0.0375423
+Source Step = 78.4268%
+Source Step = 79.5645%
+Source Step = 80.7021%
+Source Step = 81.8398%
+Source Step = 82.9774%
+vernier = 0.0563135
+Source Step = 84.2857%
+Source Step = 85.9922%
+Source Step = 87.6987%
+Source Step = 89.4051%
+Source Step = 90.2637%
+Source Step = 90.2904%
+Source Step = 90.317%
+Source Step = 90.3437%
+Source Step = 90.3703%
+Source Step = 90.397%
+vernier = 0.00131985
+Source Step = 90.4277%
+Source Step = 90.4677%
+Source Step = 90.5077%
+Source Step = 90.5477%
+Source Step = 90.5877%
+vernier = 0.00197977
+Source Step = 90.6317%
+Source Step = 90.6916%
+Source Step = 90.7516%
+Source Step = 90.8116%
+Source Step = 90.8716%
+vernier = 0.00296966
+Source Step = 90.9346%
+Source Step = 91.0246%
+Source Step = 91.1146%
+Source Step = 91.2046%
+Source Step = 91.2946%
+Source Step = 91.3846%
+vernier = 0.00445449
+Source Step = 91.5195%
+Source Step = 91.6545%
+Source Step = 91.7895%
+Source Step = 91.9245%
+Source Step = 92.0595%
+vernier = 0.00668173
+Source Step = 92.2552%
+Source Step = 92.4577%
+Source Step = 92.6602%
+Source Step = 92.8626%
+Source Step = 93.0651%
+vernier = 0.0100226
+Source Step = 93.3486%
+Source Step = 93.6523%
+Source Step = 93.956%
+Source Step = 94.2597%
+Source Step = 94.5634%
+vernier = 0.0150339
+Source Step = 94.9735%
+Source Step = 95.429%
+Source Step = 95.8846%
+Source Step = 96.3402%
+Source Step = 96.7958%
+vernier = 0.0225508
+Source Step = 97.388%
+Source Step = 98.0714%
+Source Step = 98.7547%
+Source Step = 99.4381%
+Source stepping succeeded in finding the operating point.
 
-Date: Fri Jun 23 00:47:19 2023
-Total elapsed time: 1.595 seconds.
+Semiconductor Device Operating Points:
+                        --- Diodes ---
+Name:   d:support:u2:3   d:support:u2:2   d:support:u2:1   d:support:u1:3   d:support:u1:2
+Model: support:u2:dmod2 support:u2:dmod1 support:u2:dmod1 support:u1:dmod2 support:u1:dmod1
+Id:       -2.86e-12        -4.99e-12         1.77e-02        -1.95e-10        -1.07e-11
+Vd:       -2.85e+00        -4.98e+00         7.35e-01        -1.95e+02        -1.07e+01
+Req:       1.00e+12         1.00e+12         1.46e+00         1.00e+12         1.00e+12
+CAP:       0.00e+00         0.00e+00         0.00e+00         0.00e+00         0.00e+00
 
-tnom = 27
-temp = 27
-method = modified trap
-totiter = 5464
-traniter = 3985
-tranpoints = 1435
-accept = 1324
-rejected = 111
-matrix size = 215
-fillins = 2836
-solver = Normal
-Thread vector: 19.4/11.0[3] 6.2/5.3[3] 6.6/3.7[3] 1.6/2.5[1]  2592/500
-Matrix Compiler1: 493.12 KB object code size  91.5/34.8/[24.9]
-Matrix Compiler2: 63.37 KB object code size  9.2/5.8/[3.7]
+Name:   d:support:u1:1  d:support:u3:2   d:support:u3:1    d:u5:p      d:u5:ln
+Model: support:u1:dmod1 support:u3:dfor support:u3:dburn    u5:dx       u5:dx
+Id:       -1.85e-10        -1.12e-11        4.82e-06      -1.07e-11   -4.00e-11
+Vd:       -1.85e+02        -1.24e+00        1.24e+00      -1.07e+01   -4.00e+01
+Req:       1.00e+12         1.00e+12        1.25e-05       1.00e+12    1.00e+12
+CAP:       0.00e+00         0.00e+00        0.00e+00       0.00e+00    0.00e+00
+
+Name:    d:u5:lp     d:u5:e      d:u5:c      d:u4:p      d:u4:ln
+Model:    u5:dx       u5:dx       u5:dx       u4:dx       u4:dx
+Id:     -4.00e-11    1.28e-09   -8.34e-12   -1.07e-11   -4.00e-11
+Vd:     -4.00e+01    3.69e-01   -8.34e+00   -1.07e+01   -4.00e+01
+Req:     1.00e+12    2.03e+07    1.00e+12    1.00e+12    1.00e+12
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u4:lp     d:u4:e      d:u4:c      d:u3:p      d:u3:ln
+Model:    u4:dx       u4:dx       u4:dx       u3:dx       u3:dx
+Id:     -4.00e-11   -5.63e-14   -7.91e-12   -1.07e-11   -4.00e-11
+Vd:     -4.00e+01   -5.56e-02   -7.91e+00   -1.07e+01   -4.00e+01
+Req:     1.00e+12    9.96e+11    1.00e+12    1.00e+12    1.00e+12
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u3:lp     d:u3:e      d:u3:c      d:u2:p      d:u2:ln
+Model:    u3:dx       u3:dx       u3:dx       u2:dx       u2:dx
+Id:     -4.00e-11    2.71e-06   -8.53e-12   -1.07e-11   -4.00e-11
+Vd:     -4.00e+01    5.68e-01   -8.53e+00   -1.07e+01   -4.00e+01
+Req:     1.00e+12    9.53e+03    1.00e+12    1.00e+12    1.00e+12
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u2:lp     d:u2:e      d:u2:c      d:u1:p      d:u1:ln
+Model:    u2:dx       u2:dx       u2:dx       u1:dx       u1:dx
+Id:     -4.00e-11    5.77e-08   -8.44e-12   -1.07e-11   -4.00e-11
+Vd:     -4.00e+01    4.68e-01   -8.43e+00   -1.07e+01   -4.00e+01
+Req:     1.00e+12    4.48e+05    1.00e+12    1.00e+12    1.00e+12
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u1:lp     d:u1:e      d:u1:c
+Model:    u1:dx       u1:dx       u1:dx
+Id:     -4.00e-11    1.59e-08   -8.40e-12
+Vd:     -4.00e+01    4.35e-01   -8.40e+00
+Req:     1.00e+12    1.63e+06    1.00e+12
+CAP:     0.00e+00    0.00e+00    0.00e+00
+
+                        --- Bipolar Transistors ---
+Name:   q:support:u3:6  q:support:u3:5  q:support:u3:2  q:support:u3:1  q:support:u3:nn1
+Model:  support:u3:npn1 support:u3:npn1 support:u3:npn1 support:u3:npn1 support:u3:pnp1
+Ib:         6.62e-09        3.39e-09        8.77e-09        5.76e-06       -1.03e-08
+Ic:         7.95e-07        4.06e-07        1.05e-06        6.85e-04       -4.13e-07
+Vbe:        5.90e-01        5.72e-01        5.97e-01        7.05e-01       -5.73e-01
+Vbc:       -5.83e-02        6.87e-03        0.00e+00       -5.30e-01        7.26e-02
+Vce:        6.48e-01        5.65e-01        5.97e-01        1.24e+00       -6.45e-01
+BetaDC:     1.20e+02        1.20e+02        1.20e+02        1.19e+02        4.00e+01
+Gm:         3.07e-05        1.57e-05        4.06e-05        2.61e-02        1.60e-05
+Rpi:        3.91e+06        7.63e+06        2.95e+06        4.49e+03        2.51e+06
+Rx:         0.00e+00        0.00e+00        0.00e+00        0.00e+00        0.00e+00
+Ro:         1.26e+08        2.46e+08        9.51e+07        1.47e+05        2.42e+08
+Cbe:        1.80e-13        1.63e-13        1.91e-13        2.78e-12        3.07e-13
+Cbc:        9.76e-14        1.00e-13        1.00e-13        8.38e-14        9.70e-14
+Cjs:        0.00e+00        0.00e+00        0.00e+00        0.00e+00        0.00e+00
+BetaAC:     1.20e+02        1.20e+02        1.20e+02        1.17e+02        4.00e+01
+Cbx:        0.00e+00        0.00e+00        0.00e+00        0.00e+00        0.00e+00
+Ft:         1.76e+07        9.49e+06        2.22e+07        1.45e+09        6.28e+06
+
+Name:   q:support:u3:3  q:support:u3:4  q:support:u3:14   q:u5:2      q:u5:1
+Model:  support:u3:pnp1 support:u3:pnp1 support:u3:pnp1    u5:qx       u5:qx
+Ib:        -1.79e-07       -1.50e-08       -2.83e-08     -2.06e-08   -2.04e-08
+Ic:        -7.17e-06       -6.00e-07       -1.13e-06     -5.14e-06   -5.10e-06
+Vbe:       -5.87e-01       -5.82e-01       -5.99e-01     -5.84e-01   -5.84e-01
+Vbc:       -5.68e-02        0.00e+00        0.00e+00      5.77e-04    1.23e-03
+Vce:       -5.30e-01       -5.82e-01       -5.99e-01     -5.85e-01   -5.85e-01
+BetaDC:     3.99e+01        4.00e+01        4.00e+01      2.50e+02    2.50e+02
+Gm:         2.77e-04        2.32e-05        4.36e-05      1.99e-04    1.97e-04
+Rpi:        1.44e+05        1.72e+06        9.15e+05      1.26e+06    1.27e+06
+Rx:         0.00e+00        0.00e+00        0.00e+00      0.00e+00    0.00e+00
+Ro:         1.39e+07        1.67e+08        8.86e+07      3.31e+13    3.39e+13
+Cbe:        4.26e-13        3.81e-13        5.86e-13      0.00e+00    0.00e+00
+Cbc:        1.03e-13        1.00e-13        1.00e-13      0.00e+00    0.00e+00
+Cjs:        0.00e+00        0.00e+00        0.00e+00      0.00e+00    0.00e+00
+BetaAC:     3.99e+01        3.99e+01        3.99e+01      2.50e+02    2.50e+02
+Cbx:        0.00e+00        0.00e+00        0.00e+00      0.00e+00    0.00e+00
+Ft:         8.33e+07        7.68e+06        1.01e+07      0.00e+00    0.00e+00
+
+Name:     q:u4:2      q:u4:1      q:u3:2      q:u3:1      q:u2:2
+Model:     u4:qx       u4:qx       u3:qx       u3:qx       u2:qx
+Ib:      -2.05e-08   -2.04e-08   -2.74e-08   -1.36e-08   -2.07e-08
+Ic:      -5.13e-06   -5.09e-06   -6.84e-06   -3.39e-06   -5.17e-06
+Vbe:     -5.84e-01   -5.84e-01   -5.92e-01   -5.73e-01   -5.84e-01
+Vbc:      1.69e-01    1.70e-01   -4.98e-02    5.40e-03    9.00e-02
+Vce:     -7.53e-01   -7.53e-01   -5.42e-01   -5.79e-01   -6.74e-01
+BetaDC:   2.50e+02    2.50e+02    2.50e+02    2.50e+02    2.50e+02
+Gm:       1.98e-04    1.97e-04    2.65e-04    1.31e-04    2.00e-04
+Rpi:      1.26e+06    1.27e+06    9.45e+05    1.91e+06    1.25e+06
+Rx:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Ro:       2.22e+16    2.27e+16    4.71e+12    3.98e+13    1.05e+15
+Cbe:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbc:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cjs:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+BetaAC:   2.50e+02    2.50e+02    2.50e+02    2.50e+02    2.50e+02
+Cbx:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Ft:       0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:     q:u2:1      q:u1:2      q:u1:1        q6          q5
+Model:     u2:qx       u1:qx       u1:qx      2n2222       bu941
+Ib:      -2.02e-08   -2.06e-08   -2.03e-08    4.95e-06    6.84e-06
+Ic:      -5.06e-06   -5.15e-06   -5.09e-06    9.89e-04    2.05e-03
+Vbe:     -5.84e-01   -5.84e-01   -5.84e-01    6.55e-01    7.93e-01
+Vbc:      9.18e-02    4.14e-02    4.23e-02   -1.83e-01   -4.74e+00
+Vce:     -6.75e-01   -6.26e-01   -6.26e-01    8.38e-01    5.53e+00
+BetaDC:   2.50e+02    2.50e+02    2.50e+02    2.00e+02    3.00e+02
+Gm:       1.96e-04    1.99e-04    1.97e-04    3.81e-02    7.93e-02
+Rpi:      1.28e+06    1.26e+06    1.27e+06    5.22e+03    3.78e+03
+Rx:       0.00e+00    0.00e+00    0.00e+00    1.00e+01    0.00e+00
+Ro:       1.12e+15    1.60e+14    1.66e+14    1.01e+05    1.01e+94
+Cbe:      0.00e+00    0.00e+00    0.00e+00    5.44e-11    0.00e+00
+Cbc:      0.00e+00    0.00e+00    0.00e+00    7.44e-12    0.00e+00
+Cjs:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+BetaAC:   2.50e+02    2.50e+02    2.50e+02    1.99e+02    3.00e+02
+Cbx:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Ft:       0.00e+00    0.00e+00    0.00e+00    9.81e+07    0.00e+00
+
+Name:     q§tip1        q8          q7          q4          q3
+Model:    tip42c      bc546b      bc546b      bc546b      bc546b
+Ib:      -2.05e-03    9.41e-06    3.56e-06   -1.46e-12    3.30e-06
+Ic:      -2.25e-01    9.98e-04    1.01e-03    8.96e-13    9.94e-04
+Vbe:     -7.49e-01    6.40e-01    6.39e-01   -5.59e-01    6.37e-01
+Vbc:      5.53e+00    5.46e-01    0.00e+00   -8.30e-01   -4.07e+00
+Vce:     -6.28e+00    9.43e-02    6.39e-01    2.71e-01    4.70e+00
+BetaDC:   1.10e+02    1.06e+02    2.82e+02   -6.14e-01    3.01e+02
+Gm:       7.64e+00    3.81e-02    3.82e-02    4.57e-22    3.78e-02
+Rpi:      1.32e+01    7.07e+03    7.34e+03    1.00e+12    7.92e+03
+Rx:       1.00e-01    1.00e+00    1.00e+00    1.00e+00    1.00e+00
+Ro:       4.69e+02    7.97e+02    6.13e+04    5.13e+24    6.61e+04
+Cbe:      1.78e-07    6.36e-11    6.26e-11    1.11e-11    6.15e-11
+Cbc:      2.20e-10    2.28e-11    2.31e-12    1.66e-12    1.13e-12
+Cjs:      0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+BetaAC:   1.01e+02    2.69e+02    2.81e+02    4.57e-10    2.99e+02
+Cbx:      0.00e+00    1.40e-11    1.42e-12    1.02e-12    6.96e-13
+Ft:       6.82e+06    6.04e+07    9.17e+07    1.16e-02    9.51e+07
+
+Name:       q2          q1
+Model:   bc327-25    bc327-25
+Ib:      -2.66e-06   -3.02e-06
+Ic:      -9.96e-04   -9.89e-04
+Vbe:     -5.86e-01   -5.89e-01
+Vbc:      4.43e+00    0.00e+00
+Vce:     -5.02e+00   -5.89e-01
+BetaDC:   3.75e+02    3.27e+02
+Gm:       3.87e-02    3.84e-02
+Rpi:      9.95e+03    8.74e+03
+Rx:       6.81e-01    6.73e-01
+Ro:       3.43e+04    3.00e+04
+Cbe:      1.11e-10    1.11e-10
+Cbc:      4.42e-12    1.22e-11
+Cjs:      0.00e+00    0.00e+00
+BetaAC:   3.85e+02    3.36e+02
+Cbx:      5.21e-12    1.44e-11
+Ft:       5.13e+07    4.45e+07
+
+                        --- VDMOSFET Transistors ---
+Name:          m1
+Model:       irf1405
+Id:          5.07e-09
+Vgs:         0.00e+00
+Vds:         3.78e-03
+Vth:         3.90e+00
+Gm:          0.00e+00
+Gds:         0.00e+00
+Cgs:         6.50e-09
+Cgd:         5.07e-09
+Cbody:       3.19e-09
+
 
