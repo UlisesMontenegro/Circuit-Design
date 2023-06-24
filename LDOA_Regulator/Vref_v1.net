@@ -1,0 +1,10 @@
+* C:\Users\joaqu\Desktop\Circuit-Design\LDOA_Regulator\Vref_v1.asc
+XU1 N002 0 N002 TL431
+V1 N001 0 6.4
+R1 N002 N001 470
+R2 N003 N002 2k35
+R3 0 N003 2k2
+.tran 0 10m 1n
+.lib TL431.mod
+.backanno
+.end
