@@ -1,6 +1,25 @@
 Circuit: * D:\Uli\FIUBA\Materias\Diseño de Circuitos\TP\Circuit-Design\Regulador_completo\Regulador_Completo_Symbols.asc
 
-V2: Missing value, assumed 0V @ DC
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 8.61953
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+Gmin = 8.47038
+vernier = 0.00195313
+vernier = 0.000976563
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
 Ignoring empty pin current: Ix(u1:1)
 Ignoring empty pin current: Ix(u1:2)
 Ignoring empty pin current: Ix(u1:3)
@@ -29,73 +48,52 @@ Ignoring empty pin current: Ix(u5:5)
 Ignoring empty pin current: Ix(buck:vin)
 Ignoring empty pin current: Ix(buck:vop)
 Ignoring empty pin current: Ix(ldoa:vop)
-Early termination of direct N-R iteration.
-Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
-Starting Gmin stepping
-Gmin = 10
-vernier = 0.5
-Gmin = 1.67772
-vernier = 0.666667
-Gmin = 0.430748
-vernier = 0.888888
-vernier = 0.444444
-vernier = 0.222222
-vernier = 0.111111
-Gmin = 0.271122
-vernier = 0.0555555
-vernier = 0.0277778
-vernier = 0.0138889
-vernier = 0.00694444
-vernier = 0.00347222
-vernier = 0.00173611
-Gmin = 0.270652
-vernier = 0.000868055
-vernier = 0.000434028
-Gmin = 0
-Gmin stepping failed
-
-Starting source stepping with srcstepmethod=0
-Source Step = 3.0303%
-Singular matrix:  Check nodes b:buck:1#branch and buck:u1:5
-   Iteration No. 3
-Singular matrix:  Check nodes b:buck:1#branch and buck:u1:5
-   Iteration No. 1
-Singular matrix:  Check nodes b:buck:1#branch and buck:u1:5
-   Iteration No. 1
-Singular matrix:  Check nodes b:buck:1#branch and buck:u1:5
-   Iteration No. 1
-Singular matrix:  Check nodes b:buck:1#branch and buck:u1:5
-   Iteration No. 1
-Singular matrix:  Check nodes b:buck:1#branch and buck:u1:5
-   Iteration No. 1
-Starting source stepping with srcstepmethod=1
-Source Step = 3.0303%
-Singular matrix:  Check nodes b:buck:1#branch and buck:u1:6
-   Iteration No. 3
-Source stepping failed
-
-Pseudo Transient succeeded in finding the operating point at 337.936 ms.
-
-vo1rl: v(vo)=3.31876 at 12
-vo2rl: v(vo)=3.3221 at 36
-reglin: ((vo2rl-vo1rl)/24)=0.000138998
+Ignoring empty pin current: Ix(u1:1)
+Ignoring empty pin current: Ix(u1:2)
+Ignoring empty pin current: Ix(u1:3)
+Ignoring empty pin current: Ix(u1:4)
+Ignoring empty pin current: Ix(u1:5)
+Ignoring empty pin current: Ix(u2:1)
+Ignoring empty pin current: Ix(u2:2)
+Ignoring empty pin current: Ix(u2:3)
+Ignoring empty pin current: Ix(u2:4)
+Ignoring empty pin current: Ix(u2:5)
+Ignoring empty pin current: Ix(u3:1)
+Ignoring empty pin current: Ix(u3:2)
+Ignoring empty pin current: Ix(u3:3)
+Ignoring empty pin current: Ix(u3:4)
+Ignoring empty pin current: Ix(u3:5)
+Ignoring empty pin current: Ix(u4:1)
+Ignoring empty pin current: Ix(u4:2)
+Ignoring empty pin current: Ix(u4:3)
+Ignoring empty pin current: Ix(u4:4)
+Ignoring empty pin current: Ix(u4:5)
+Ignoring empty pin current: Ix(u5:1)
+Ignoring empty pin current: Ix(u5:2)
+Ignoring empty pin current: Ix(u5:3)
+Ignoring empty pin current: Ix(u5:4)
+Ignoring empty pin current: Ix(u5:5)
+Ignoring empty pin current: Ix(buck:vin)
+Ignoring empty pin current: Ix(buck:vop)
+Ignoring empty pin current: Ix(ldoa:vop)
 
 
-Date: Wed Jul 12 01:01:33 2023
-Total elapsed time: 1.763 seconds.
+
+Date: Tue Jul 18 23:29:23 2023
+Total elapsed time: 0.953 seconds.
 
 tnom = 27
 temp = 27
-method = trap
-totiter = 8081
-traniter = 0
-tranpoints = 0
-accept = 0
-rejected = 73
-matrix size = 261
-fillins = 4570
+method = modified trap
+totiter = 6122
+traniter = 4756
+tranpoints = 1867
+accept = 1667
+rejected = 200
+matrix size = 262
+fillins = 2051
 solver = Normal
-Thread vector: 13.4/7.1[4] 0.0/0.0[4] 4.5/3.2[4] 1.1/1.9[1]  2592/500
-Matrix Compiler1:   67590 opcodes  154.1/25.4/[4.8]
-Matrix Compiler2: 98.60 KB object code size  4.9/2.7/[2.0]
+Thread vector: 12.8/8.0[4] 4.4/3.1[4] 5.7/2.6[4] 1.2/3.0[1]  2592/500
+Matrix Compiler1: 310.92 KB object code size  33.7/12.0/[9.8]
+Matrix Compiler2: 55.20 KB object code size  6.5/3.8/[3.1]
 

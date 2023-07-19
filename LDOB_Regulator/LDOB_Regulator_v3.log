@@ -5,168 +5,66 @@ Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to sk
 Starting Gmin stepping
 Gmin = 10
 Gmin = 1.07374
-Gmin = 0.115292
-Gmin = 0.0123794
-Gmin = 0.00132923
-Gmin = 0.000142725
+vernier = 0.5
+vernier = 0.666667
+Gmin = 0.402032
+vernier = 0.888888
+vernier = 1
+Gmin = 0.0567082
+Gmin = 0.006089
+Gmin = 0.000653801
+Gmin = 7.02013e-005
 vernier = 0.5
 vernier = 0.25
 vernier = 0.125
-Gmin = 4.53508e-005
-vernier = 0.166667
-Gmin = 3.13875e-005
-vernier = 0.222222
-vernier = 0.296296
-Gmin = 1.70504e-005
+Gmin = 5.5225e-005
+vernier = 0.0625
+vernier = 0.0833333
+Gmin = 4.85304e-005
+vernier = 0.111111
 vernier = 0.148148
-vernier = 0.074074
-vernier = 0.0987653
-Gmin = 1.5529e-005
-vernier = 0.0493827
-vernier = 0.0246913
-vernier = 0.0123457
-vernier = 0.00617283
-vernier = 0.00308642
-vernier = 0.00154321
-vernier = 0.000771604
-vernier = 0.000578703
-Gmin = 1.51548e-005
-vernier = 0.000771604
-Gmin = 1.51293e-005
-vernier = 0.00102881
-vernier = 0.00137174
-Gmin = 1.50875e-005
-vernier = 0.00182899
-vernier = 0.00243865
-Gmin = 1.50215e-005
-vernier = 0.00325153
-Gmin = 1.49151e-005
-vernier = 0.00433537
-vernier = 0.00578049
-Gmin = 1.47425e-005
-vernier = 0.00770732
-vernier = 0.0102764
-Gmin = 1.4473e-005
-vernier = 0.0137019
-vernier = 0.00685095
-vernier = 0.00342547
-Gmin = 1.4264e-005
-vernier = 0.0045673
-vernier = 0.00608973
-Gmin = 1.41089e-005
-vernier = 0.00304486
-vernier = 0.00152243
-vernier = 0.00202991
-Gmin = 1.40821e-005
-vernier = 0.00270655
-vernier = 0.00360873
-Gmin = 1.39911e-005
-vernier = 0.00180436
-vernier = 0.000902181
-vernier = 0.00120291
-Gmin = 1.39753e-005
-vernier = 0.00160388
-vernier = 0.0021385
-Gmin = 1.39217e-005
-vernier = 0.00106925
-vernier = 0.000534626
-vernier = 0.000712834
-Gmin = 1.39124e-005
-vernier = 0.000950445
-vernier = 0.00126726
-Gmin = 1.38808e-005
-vernier = 0.00063363
-vernier = 0.000475222
-Gmin = 1.3861e-005
-vernier = 0.00063363
-vernier = 0.000844839
-Gmin = 1.38374e-005
-vernier = 0.00112645
-vernier = 0.000563226
-vernier = 0.00042242
-Gmin = 1.38228e-005
-vernier = 0.000563226
-vernier = 0.000750968
-vernier = 0.000563226
-vernier = 0.000422419
-Gmin = 1.38097e-005
-vernier = 0.000563226
-vernier = 0.000422419
+Gmin = 3.67384e-005
+vernier = 0.197531
+Gmin = 2.3787e-005
+vernier = 0.263374
+vernier = 0.351165
+Gmin = 1.15877e-005
+vernier = 0.46822
+vernier = 0.624294
+Gmin = 3.77126e-006
+vernier = 0.832392
+Gmin = 6.79098e-007
+vernier = 1
+Gmin = 7.29176e-008
+Gmin = 7.82947e-009
+Gmin = 8.40683e-010
+Gmin = 9.02676e-011
+Gmin = 9.69241e-012
+Gmin = 1.04071e-012
+Gmin = 1.11746e-013
 Gmin = 0
-Singular matrix:  Check node u5:5
-   Iteration No. 5
-Gmin stepping failed
+Gmin stepping succeeded in finding the operating point.
 
-Starting source stepping with srcstepmethod=0
-Source Step = 3.0303%
-Source Step = 33.3333%
-Source Step = 63.6364%
-Source Step = 93.9394%
-Singular matrix:  Check node u5:6
-   Iteration No. 27
-Singular matrix:  Check node u5:6
-   Iteration No. 1
-Singular matrix:  Check nodes u4:49 and u1:6
-   Iteration No. 3
-Singular matrix:  Check node u1:6
-   Iteration No. 1
-Singular matrix:  Check node u3:6
-   Iteration No. 1
-Singular matrix:  Check node u6:5
-   Iteration No. 1
-Singular matrix:  Check node u3:6
-   Iteration No. 1
-Singular matrix:  Check node u6:5
-   Iteration No. 1
-Source Step = 100%
-Singular matrix:  Check node u6:5
-   Iteration No. 1
-Singular matrix:  Check node u1:6
-   Iteration No. 1
-Singular matrix:  Check node u3:6
-   Iteration No. 1
-Singular matrix:  Check node u1:6
-   Iteration No. 1
-Starting source stepping with srcstepmethod=1
-Source Step = 3.0303%
-Source Step = 33.3333%
-Source Step = 63.6364%
-Source Step = 93.9394%
-Source Step = 100%
-Singular matrix:  Check node u3:5
-   Iteration No. 118
-Singular matrix:  Check node u5:6
-   Iteration No. 1
-Source Step = 100%
-Singular matrix:  Check node u3:5
-   Iteration No. 1
-Singular matrix:  Check node u3:5
-   Iteration No. 1
-Singular matrix:  Check node u3:6
-   Iteration No. 5
-Singular matrix:  Check node u3:6
-   Iteration No. 1
-Singular matrix:  Check node u3:6
-   Iteration No. 1
-Singular matrix:  Check node u3:6
-   Iteration No. 1
-Singular matrix:  Check nodes n010 and u6:6
-   Iteration No. 3
-Source stepping failed
+Heightened Def Con from 0.01 ++++++++++++++to 0.01
+Heightened Def Con from 0.01 to 0.01
 
-Pseudo Transient failed in finding the operating point at 19.3748 µs.
-Trouble finding operating point....skipping operating point for Transient analysis.
-Changing Tseed to 1e-007
-Changing Tseed to 1e-009
-Changing Tseed to 1e-006
-Changing Tseed to 1e-010
-Changing Tseed to 1e-005
-Changing Tseed to 1e-011
-Changing Tseed to 0.0001
-Changing Tseed to 1e-012
-Changing Tseed to 0.001
-Changing Tseed to 1e-013
-Changing Tseed to 0.01
-Changing Tseed to 1e-014
-Fatal Error: Analysis:  Time step too small; initial timepoint: trouble with 2n7002-instance m1
+
+
+Date: Wed Jul 19 20:28:49 2023
+Total elapsed time: 0.481 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 7183
+traniter = 5879
+tranpoints = 2641
+accept = 2487
+rejected = 170
+matrix size = 222
+fillins = 421
+solver = Normal
+Thread vector: 9.6/6.0[3] 3.5/2.8[3] 2.6/1.9[3] 0.6/1.1[1]  2592/500
+Matrix Compiler1: 35.20 KB object code size  6.2/1.8/[1.7]
+Matrix Compiler2: 25.33 KB object code size  1.5/1.9/[1.2]
 

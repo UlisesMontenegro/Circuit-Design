@@ -1,0 +1,121 @@
+Circuit: * D:\Uli\FIUBA\Materias\Diseño de Circuitos\TP\Circuit-Design\LDOA_Regulator\Regulador_LDOA_v8_uvlo_ovlo.asc
+
+WARNING: Specified period is not longer than the sum of Trise, Tfall, and Ton for v7.  Increasing period to 2
+WARNING: Less than two connections to node VCOMP_V.  This node is used by VCOMP.
+WARNING: Less than two connections to node VCOMP_I.  This node is used by VCOMP1.
+WARNING: Less than two connections to node VP_UVLO.  This node is used by V4.
+WARNING: Less than two connections to node VP_OVLO.  This node is used by V3.
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+vernier = 0.5
+Gmin = 3.28467e-005
+vernier = 0.666667
+vernier = 0.888888
+Gmin = 6.88979e-006
+vernier = 0.444444
+vernier = 0.222222
+vernier = 0.111111
+vernier = 0.0555555
+Gmin = 6.96517e-006
+vernier = 0.074074
+vernier = 0.0987653
+Gmin = 5.8419e-006
+vernier = 0.131687
+Gmin = 4.39796e-006
+vernier = 0.175583
+vernier = 0.23411
+Gmin = 2.77418e-006
+vernier = 0.312147
+vernier = 0.416196
+Gmin = 1.34971e-006
+vernier = 0.208098
+vernier = 0.277464
+Gmin = 8.296e-007
+vernier = 0.138732
+vernier = 0.184976
+Gmin = 6.10848e-007
+vernier = 0.0924879
+vernier = 0.123317
+Gmin = 4.82885e-007
+vernier = 0.164423
+vernier = 0.0822114
+Gmin = 3.90304e-007
+vernier = 0.109615
+vernier = 0.0548076
+vernier = 0.0730768
+Gmin = 3.4381e-007
+vernier = 0.0974357
+Gmin = 2.78448e-007
+vernier = 0.129914
+vernier = 0.173219
+vernier = 0.0866095
+Gmin = 2.19636e-007
+vernier = 0.115479
+Gmin = 1.69953e-007
+vernier = 0.153972
+vernier = 0.0769862
+vernier = 0.102648
+Gmin = 1.43192e-007
+vernier = 0.136864
+vernier = 0.0684321
+Gmin = 1.21919e-007
+vernier = 0.0912428
+vernier = 0.121657
+vernier = 0.0608285
+Gmin = 1.03321e-007
+vernier = 0.0811047
+vernier = 0.10814
+Gmin = 8.52382e-008
+vernier = 0.144186
+Gmin = 6.24902e-008
+vernier = 0.192248
+vernier = 0.25633
+Gmin = 3.77733e-008
+vernier = 0.341774
+vernier = 0.455698
+Gmin = 1.72092e-008
+vernier = 0.607598
+Gmin = 4.94775e-009
+vernier = 0.81013
+vernier = 1
+Gmin = 7.27248e-010
+Gmin = 7.80876e-011
+Gmin = 8.38459e-012
+Gmin = 9.00289e-013
+Gmin = 0
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Ignoring empty pin current: Ix(u11:1)
+Ignoring empty pin current: Ix(u11:2)
+Ignoring empty pin current: Ix(u11:1)
+Ignoring empty pin current: Ix(u11:2)
+Heightened Def Con from 0.00100075 to 0.00100076
+
+
+
+Date: Wed Jul 19 20:27:06 2023
+Total elapsed time: 0.713 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 6551
+traniter = 3885
+tranpoints = 1221
+accept = 941
+rejected = 281
+matrix size = 271
+fillins = 543
+solver = Normal
+Thread vector: 22.0/8.2[7] 4.9/3.0[7] 4.2/2.8[7] 0.6/1.1[1]  2592/500
+Matrix Compiler1: 40.66 KB object code size  7.7/2.4/[2.0]
+Matrix Compiler2: 31.74 KB object code size  1.8/2.0/[1.6]
+
